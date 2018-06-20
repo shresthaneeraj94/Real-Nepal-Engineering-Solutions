@@ -1,61 +1,65 @@
 <?php
-include_once "Includes/header.php";
-include_once "Includes/nav.php";
+session_start();
+if (isset($_COOKIE['remember'])) {
+    $_SESSION['user'] = $_COOKIE['remember'];
+}
+if (isset($_SESSION['user'])) {
+    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/home');
+    die;
+}
 ?>
 
-<!-- page content -->
-<div class="right_col" role="main">
-    <div class="">
-        <div class="page-title">
-            <div class="title_left">
-                <h3>Form Upload </h3>
-            </div>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RNES - Admin Panel</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        body {
+            background: whitesmoke;
+        }
 
-            <div class="title_right">
-                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                    </div>
-                </div>
+        form {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="text-center">
+                <h1>Real Nepal Engineering Solutions</h1>
+                <img src="docs/logo.png" alt="">
+                <h3>Admin Panel Login</h3>
             </div>
+            <form action="action/loginAction.php" method="post">
+                <label><i class="fa fa-user"></i> Username : </label>
+                <input name="username" type="text" placeholder="username" class="form-control" required>
+                <label><i class="fa fa-key"></i> Password : </label>
+                <input name="password" type="password" placeholder="password" class="form-control" required>
+                <br>
+                <input type="checkbox" name="remember" value="true"> <label><i class="fa fa-thumb-tack"></i> Stay Signed
+                    In</label>
+                <hr>
+                <?php
+                if (isset($_SESSION['login_msg'])) {
+                    echo "<div class='alert alert-danger'>" . $_SESSION['login_msg'] . "</div>";
+                    session_destroy();
+                }
+                ?>
+                <button class="btn btn-info btn-block" type="submit">Login</button>
+            </form>
         </div>
-
-        <div class="clearfix"></div>
-
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="x_panel">
-                    <div class="x_title">
-                        <h2>Dropzone multiple file uploader</h2>
-                        <ul class="nav navbar-right panel_toolbox">
-                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                   aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Settings 1</a>
-                                    </li>
-                                    <li><a href="#">Settings 2</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="close-link"><i class="fa fa-close"></i></a>
-                            </li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="x_content">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="col-md-3"></div>
     </div>
 </div>
-<!-- /page content -->
 
-
-<?php include_once "Includes/footer.php";?>
+</body>
+</html>
