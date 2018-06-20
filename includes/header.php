@@ -1,29 +1,29 @@
 <?php
-require_once '@dmin/action/DBConnect.php';
+include_once '@dmin/action/DBConnect.php';
 
 //product
-$sql_1 = "SELECT * FROM navigation WHERE category=?";
+$sql_1 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_1 = $conn->prepare($sql_1);
 $query_1->execute(['product']);
 $product = $query_1->fetchAll();
 
 //services
-$sql_2 = "SELECT * FROM navigation WHERE category=?";
+$sql_2 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_2 = $conn->prepare($sql_2);
 $query_2->execute(['services']);
 $services = $query_2->fetchAll();
 
 //designing
-$sql_3 = "SELECT * FROM navigation WHERE category=?";
+$sql_3 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_3 = $conn->prepare($sql_3);
 $query_3->execute(['designing']);
 $designing = $query_3->fetchAll();
 
-echo "<pre>";
-print_r($product);
-print_r($services);
-print_r($designing);
-echo "</pre>";
+//echo "<pre>";
+//print_r($product);
+//print_r($services);
+//print_r($designing);
+//echo "</pre>";
 ?>
 
 
@@ -106,42 +106,47 @@ echo "</pre>";
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#">Blog <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Products <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="blog.html">Blog Standard</a></li>
-                                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                                    <?php
+                                                    foreach ($product as $item1) {
+                                                        echo "<li title='" . $item1['title'] . "'><a href='/product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
+                                                    }
+                                                    ?>
                                                 </ul>
                                             </div><!-- /.submenu-inner -->
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#">Portfolio <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Services <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="portfolio-four.html">Portfolio Four Col</a></li>
-                                                    <li><a href="portfolio-three.html">Portfolio Three Col</a></li>
-                                                    <li><a href="portfolio-two.html">Portfolio Two Col</a></li>
+                                                    <?php
+                                                    foreach ($services as $item2) {
+                                                        echo "<li title='" . $item2['title'] . "'><a href='/product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
+                                                    }
+                                                    ?>
                                                 </ul>
                                             </div><!-- /.submenu-inner -->
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
 
-                                    <li class="dropdown"><a href="#">Pages <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Electrical Design <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="job-page.html">Job Page</a></li>
-                                                    <li><a href="clients-page.html">Clients Page</a></li>
-                                                    <li><a href="faq.html">FAQ Page</a></li>
-                                                    <li><a href="typography.html">Typography</a></li>
-                                                </ul>
+                                                    <?php
+                                                    foreach ($designing as $item3) {
+                                                        echo "<li title='" . $item3['title'] . "'><a href='/product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
+                                                    }
+                                                    ?>                                                </ul>
                                             </div><!-- /.submenu-inner -->
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
