@@ -1,3 +1,32 @@
+<?php
+require_once '@dmin/action/DBConnect.php';
+
+//product
+$sql_1 = "SELECT * FROM navigation WHERE category=?";
+$query_1 = $conn->prepare($sql_1);
+$query_1->execute(['product']);
+$product = $query_1->fetchAll();
+
+//services
+$sql_2 = "SELECT * FROM navigation WHERE category=?";
+$query_2 = $conn->prepare($sql_2);
+$query_2->execute(['services']);
+$services = $query_2->fetchAll();
+
+//designing
+$sql_3 = "SELECT * FROM navigation WHERE category=?";
+$query_3 = $conn->prepare($sql_3);
+$query_3->execute(['designing']);
+$designing = $query_3->fetchAll();
+
+echo "<pre>";
+print_r($product);
+print_r($services);
+print_r($designing);
+echo "</pre>";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -8,7 +37,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?=$title?></title>
+    <title><?= $title ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Web Fonts -->
@@ -49,14 +78,15 @@
                     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                         <div class="container">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" >
+                                <button type="button" class="navbar-toggle collapsed">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!-- offcanvas-trigger-effects -->
-                                <h1 class="logo"><a class="navbar-brand" href="index.php"><img src="img/logo.png" alt=""></a></h1>
+                                <h1 class="logo"><a class="navbar-brand" href="index.php"><img src="img/logo.png"
+                                                                                               alt=""></a></h1>
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,7 +94,7 @@
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="active"><a href="index.html">Home</a></li>
 
-                                    <li class="dropdown"><a href="#" >About <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">About <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
@@ -76,7 +106,7 @@
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#" >Blog <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Blog <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
@@ -88,7 +118,7 @@
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#" >Portfolio <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Portfolio <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
@@ -102,7 +132,7 @@
                                     </li>
 
 
-                                    <li class="dropdown"><a href="#" >Pages <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="#">Pages <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">

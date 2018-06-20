@@ -32,6 +32,13 @@
                             <li><a href="index3.html">Dashboard3</a></li>
                         </ul>
                     </li>
+                    <li><a><i class="fa fa-credit-card"></i>Navigation<span
+                                    class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="/@dmin/Navigation">View Navigation List</a></li>
+                            <li><a href="/@dmin/AddNavigation">Add Navigation</a></li>
+                        </ul>
+                    </li>
                     <li><a><i class="fa fa-image"></i> Images <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="/@dmin/Image">View Image</a></li>
