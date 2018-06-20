@@ -15,18 +15,13 @@ $tab_stat = $_POST['tab_stat'];
 $image = '';
 $time = time();
 
-if (!empty($_FILES['image'])) {
-    $target_dir = "img/Navigation/";
-    $file_name = $_FILES["image"]['name'];
-//    $imageFileType = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
-//    $target_file_name = rand(1, 9) . '_' . time() . '.' . $imageFileType;
-//    $target_file = $target_dir . $target_file_name;
-
-    if (move_uploaded_file($_FILES["image"]['tmp_name'], $target_dir . $_FILES['image']['name'])) {
-        $image = $_FILES['image']['name'];
+if (!empty($_FILES)) {
+    $image = $_FILES['image']['tmp_name'];
+    $photo = time() . '_' . rand(1, 9) . "." . pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
+    if (move_uploaded_file($image, "../../img/Navigation/" . $photo)) {
+        $image = $photo;
     }
 }
-
 
 $sql = "INSERT INTO navigation( title, detail, image, category, tab_stat, created_at) VALUES( ?, ?, ?, ?, ?, ?)";
 $query = $conn->prepare($sql);

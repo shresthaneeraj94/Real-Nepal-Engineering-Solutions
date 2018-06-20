@@ -102,9 +102,9 @@ include_once "Includes/nav.php";
                                                 checked>
                                         <br>
                                         <br>
-                                        <!--                                    <label><i class="fa fa-image"> </i> Featured Image :</label>-->
-                                        <!--                                    <input type="file" name="image" class="form-control">-->
-                                        <!--                                    <br>-->
+                                        <label><i class="fa fa-image"> </i> Featured Image :</label>
+                                        <input type="file" id="file" ref="file" class="form-control" v-on:change="handleFileUpload()"/>
+                                        <br>
                                         <button type="submit" class="alignright btn btn-success">Submit</button>
                                     </div>
                                 </form>
