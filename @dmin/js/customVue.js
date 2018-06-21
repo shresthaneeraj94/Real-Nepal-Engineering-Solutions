@@ -201,3 +201,53 @@ var addDetail = new Vue({
         this.addImage();
     }
 });
+
+
+//IMAGE LIST
+var image = new Vue({
+    el: '#image',
+    data: {
+        imageList: ''
+    },
+    methods: {
+        getImage: function () {
+            var mainData = this;
+            axios.get('api/getImage.php')
+                .then(function (response) {
+                    mainData.imageList = response.data;
+                    // console.log(mainData.navList);
+                }).catch(function (error) {
+                // Error handling
+            });
+
+        }
+    },
+    created: function () {
+        this.getImage();
+    }
+});
+
+
+//VIDEO LIST
+var video = new Vue({
+    el: '#video',
+    data: {
+        videoList: ''
+    },
+    methods: {
+        getVideo: function () {
+            var mainData = this;
+            axios.get('api/getVideo.php')
+                .then(function (response) {
+                    mainData.videoList = response.data;
+                    // console.log(mainData.navList);
+                }).catch(function (error) {
+                // Error handling
+            });
+
+        }
+    },
+    created: function () {
+        this.getVideo();
+    }
+});
