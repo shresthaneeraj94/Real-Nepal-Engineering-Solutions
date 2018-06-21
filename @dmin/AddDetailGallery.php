@@ -41,7 +41,7 @@ include_once "Includes/nav.php";
 
             <div class="clearfix"></div>
 
-            <div class="row">
+            <div class="row" id="addDetail">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
@@ -50,41 +50,38 @@ include_once "Includes/nav.php";
                         </div>
                         <div class="x_content">
                             <div class="row text-center">
-                                <div class="col-md-4 text-danger">
+                                <div class="col-md-4 text-info">
                                     Gallery title : <br><b class="lead"><?php echo $gallery['title'] ?> </b>
+                                    <hr>
                                     <img src="../img/Gallery/featured/<?php echo $gallery['image'] ?>"
                                          style="height: 150px;padding:10px" alt="image">
-                                    <hr>
-                                    <i class="fa fa-newspaper-o"> Detail : </i>
+
+                                    <h5><i class="fa fa-newspaper-o"> Detail : </i></h5>
                                     <?php echo $gallery['detail'] ?>
+                                    <hr>
                                 </div>
                                 <div class="col-md-8">
-                                    <button class="btn btn-info"><i class="fa fa-plus"></i> <i class="fa fa-image"></i>
-                                        Image
+                                    <button class="btn btn-info" v-on:click="addImage()"><i class="fa fa-plus"></i> <i
+                                                class="fa fa-image"></i>
                                     </button>
-                                    <button class="btn btn-info"><i class="fa fa-plus"></i> <i
-                                                class="fa fa-video-camera"></i> Video
+                                    <button class="btn btn-info" v-on:click="minusImage()"><i class="fa fa-minus"></i>
+                                        <i
+                                                class="fa fa-image"></i>
                                     </button>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <button class="btn btn-info" v-on:click="addVideo()"><i class="fa fa-plus"></i> <i
+                                                class="fa fa-video-camera"></i>
+                                    </button>
+                                    <button class="btn btn-info" v-on:click="minusVideo()"><i class="fa fa-minus"></i>
+                                        <i
+                                                class="fa fa-video-camera"></i>
+                                    </button>
+                                    <hr>
                                     <div class="text-left imgvid">
-                                        <form action="">
-                                            <i class="fa fa-image text-success"> Image : </i>
-
-                                            <input type="file" name="images[]">
-
-                                            <input type="text" name="capImg[]" placeholder="Image Caption" required>
-
-                                            <button class="fa fa-times btn btn-danger btn-xs"></button>
-
-                                            <hr>
-
-                                            <i class="fa fa-image text-success"> Video : </i>
-
-                                            <input type="text" name="videos[]" placeholder="Video URL">
-
-                                            <input type="text" name="capVideo[]" placeholder="Video Caption" required>
-
-                                            <button class="fa fa-times btn btn-danger btn-xs"></button>
-
+                                        <form action="/@dmin/action/addGalleryDetail" id="img-vid-form"
+                                              enctype="multipart/form-data" method="post">
+                                            <input type="text" name="id" value="<?= $id ?>" style="display: none;">
+                                            <button class="alignright btn btn-success" type="submit">Submit</button>
                                         </form>
                                     </div>
                                 </div>

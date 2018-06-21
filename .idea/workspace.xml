@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddf0d08f-1b53-4dfe-9e79-841fc9aba218" name="Default" comment="" />
+    <list default="true" id="ddf0d08f-1b53-4dfe-9e79-841fc9aba218" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/action/addGalleryDetail.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/productList.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/@dmin/AddDetailGallery.php" afterPath="$PROJECT_DIR$/@dmin/AddDetailGallery.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Gallery.php" afterPath="$PROJECT_DIR$/@dmin/Gallery.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Includes/header.php" afterPath="$PROJECT_DIR$/@dmin/Includes/header.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/js/customVue.js" afterPath="$PROJECT_DIR$/@dmin/js/customVue.js" />
+      <change beforePath="$PROJECT_DIR$/product.php" afterPath="$PROJECT_DIR$/product.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +19,89 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AddDetailGallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/AddDetailGallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="82" column="90" lean-forward="false" selection-start-line="82" selection-start-column="90" selection-end-line="82" selection-end-column="90" />
+              <folding>
+                <element signature="e#2990#2996#0#HTML" expanded="true" />
+                <element signature="e#2996#3002#0#HTML" expanded="true" />
+                <element signature="e#3002#3008#0#HTML" expanded="true" />
+                <element signature="e#3008#3014#0#HTML" expanded="true" />
+                <element signature="e#3014#3020#0#HTML" expanded="true" />
+                <element signature="e#3020#3026#0#HTML" expanded="true" />
+                <element signature="e#3026#3032#0#HTML" expanded="true" />
+                <element signature="e#3032#3038#0#HTML" expanded="true" />
+                <element signature="e#3038#3044#0#HTML" expanded="true" />
+                <element signature="e#3044#3050#0#HTML" expanded="true" />
+                <element signature="e#3050#3056#0#HTML" expanded="true" />
+                <element signature="e#3056#3062#0#HTML" expanded="true" />
+                <element signature="e#3062#3068#0#HTML" expanded="true" />
+                <element signature="e#3068#3074#0#HTML" expanded="true" />
+                <element signature="e#3074#3080#0#HTML" expanded="true" />
+                <element signature="e#3080#3086#0#HTML" expanded="true" />
+                <element signature="e#3086#3092#0#HTML" expanded="true" />
+                <element signature="e#3092#3098#0#HTML" expanded="true" />
+                <element signature="e#3098#3104#0#HTML" expanded="true" />
+                <element signature="e#3104#3110#0#HTML" expanded="true" />
+                <element signature="e#4039#4061#0#HTML" expanded="true" />
+                <marker date="1529583841588" expanded="true" signature="237:269" ph="SELECT * FRO... gallery" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addNavigation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/action/addNavigation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1529517389305" expanded="true" signature="692:795" ph="INSERT INTO navigation... " />
+                <marker date="1529517389305" expanded="true" signature="692:798" ph="INSERT INTO `navigation`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addGalleryDetail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/@dmin/action/addGalleryDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1529584700068" expanded="true" signature="333:396" ph="INSERT INTO videos... " />
+                <marker date="1529584700068" expanded="true" signature="915:978" ph="INSERT INTO video... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/Gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="21" column="95" lean-forward="true" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+              <folding>
+                <marker date="1529584593208" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customVue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="185" column="10" lean-forward="true" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -22,6 +113,10 @@
       <find>imageVideo</find>
       <find>title_r</find>
       <find>pages</find>
+      <find>req</find>
+      <find>button</find>
+      <find>requ</find>
+      <find>preve</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,7 +147,6 @@
         <option value="$PROJECT_DIR$/@dmin/api/getEditNavigation.php" />
         <option value="$PROJECT_DIR$/pages/product.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/@dmin/action/addNavigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/updateNavigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/deleteNavigation.php" />
@@ -68,10 +162,13 @@
         <option value="$PROJECT_DIR$/@dmin/api/deleteGallery.php" />
         <option value="$PROJECT_DIR$/@dmin/action/addGallery.php" />
         <option value="$PROJECT_DIR$/@dmin/AddNavigation.php" />
-        <option value="$PROJECT_DIR$/@dmin/Gallery.php" />
-        <option value="$PROJECT_DIR$/@dmin/js/customVue.js" />
+        <option value="$PROJECT_DIR$/productList.php" />
+        <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/@dmin/Includes/header.php" />
+        <option value="$PROJECT_DIR$/@dmin/js/customVue.js" />
         <option value="$PROJECT_DIR$/@dmin/AddDetailGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/Gallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/action/addGalleryDetail.php" />
       </list>
     </option>
   </component>
@@ -117,23 +214,12 @@
               <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="@dmin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="@dmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="action" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,19 +227,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../A3" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\_PROJECT\Template" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\api" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\action" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\Includes" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\gentelella\css" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\gentelella" />
       <recent name="C:\xampp\htdocs\Real Nepal Engineering Solution" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\api" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\action" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,16 +278,18 @@
       <workItem from="1529517165476" duration="1156000" />
       <workItem from="1529525281789" duration="1878000" />
       <workItem from="1529558685448" duration="11890000" />
+      <workItem from="1529576123900" duration="8477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51280000" />
+    <option name="totallyTimeSpent" value="59757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -229,24 +317,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8296">
-          <caret line="488" column="26" lean-forward="false" selection-start-line="488" selection-start-column="26" selection-end-line="488" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -301,13 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/gentelella/css/fontawesome-all.min.css" />
     <entry file="file://$PROJECT_DIR$/@dmin/gentelella/css/font-awesome.css" />
-    <entry file="file://$PROJECT_DIR$/@dmin/AddVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/AddVideo.php" />
     <entry file="file://$PROJECT_DIR$/@dmin/gentelella/custom.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -315,13 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Video.php" />
     <entry file="file://$PROJECT_DIR$/@dmin/action/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -348,9 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="1602" column="30" lean-forward="false" selection-start-line="1602" selection-start-column="30" selection-end-line="1602" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="129" column="30" lean-forward="true" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
-          <folding>
-            <marker date="1529513351185" expanded="true" signature="224:259" ph="SELECT * FRO... navigation" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/api/updateNavigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -434,9 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <marker date="1529507694454" expanded="true" signature="55:79" ph="SELECT * FRO... navigation" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,32 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/action/addNavigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="2" />
-          <folding>
-            <marker date="1529517389305" expanded="true" signature="692:795" ph="INSERT INTO navigation... " />
-            <marker date="1529517389305" expanded="true" signature="692:798" ph="INSERT INTO `navigation`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/api/getEditGallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <marker date="1529564355374" expanded="true" signature="108:140" ph="SELECT * FRO... gallery" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <marker date="1529563774646" expanded="true" signature="55:76" ph="SELECT * FRO... gallery" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,11 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
-          <folding>
-            <marker date="1529564976883" expanded="true" signature="273:309" ph="SELECT image... gallery" />
-            <marker date="1529564976883" expanded="true" signature="805:888" ph="UPDATE navigation... " />
-            <marker date="1529564976883" expanded="true" signature="1125:1200" ph="UPDATE navigation... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,10 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <marker date="1529526594659" expanded="true" signature="111:150" ph="SELECT image... navigation" />
-            <marker date="1529526594659" expanded="true" signature="372:405" ph="DELETE FROM navigation... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,10 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <marker date="1529564976787" expanded="true" signature="111:147" ph="SELECT image... gallery" />
-            <marker date="1529564976787" expanded="true" signature="375:405" ph="DELETE FROM gallery... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <marker date="1529565440731" expanded="true" signature="671:763" ph="INSERT INTO gallery... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,33 +580,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Gallery.php">
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="70" column="84" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
+        <state relative-caret-position="204">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#541#599#0#PHP" expanded="true" />
-            <element signature="e#4216#4333#0#HTML" expanded="true" />
-            <marker date="1529565722744" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+            <marker date="1529512958199" expanded="true" signature="70:126" ph="SELECT * FRO... navigation" />
+            <marker date="1529512958199" expanded="true" signature="251:307" ph="SELECT * FRO... navigation" />
+            <marker date="1529512958199" expanded="true" signature="435:491" ph="SELECT * FRO... navigation" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
+    <entry file="file://$PROJECT_DIR$/productList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="162" column="73" lean-forward="false" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1529576751164" expanded="true" signature="77:101" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1529577439085" expanded="true" signature="131:166" ph="SELECT * FRO... navigation" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/Includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="238">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
@@ -609,11 +625,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/AddDetailGallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="83" column="117" lean-forward="false" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
+        <state relative-caret-position="187">
+          <caret line="82" column="90" lean-forward="false" selection-start-line="82" selection-start-column="90" selection-end-line="82" selection-end-column="90" />
           <folding>
-            <element signature="e#2039#2073#0#HTML" expanded="true" />
-            <marker date="1529569889916" expanded="true" signature="237:269" ph="SELECT * FRO... gallery" />
+            <element signature="e#2990#2996#0#HTML" expanded="true" />
+            <element signature="e#2996#3002#0#HTML" expanded="true" />
+            <element signature="e#3002#3008#0#HTML" expanded="true" />
+            <element signature="e#3008#3014#0#HTML" expanded="true" />
+            <element signature="e#3014#3020#0#HTML" expanded="true" />
+            <element signature="e#3020#3026#0#HTML" expanded="true" />
+            <element signature="e#3026#3032#0#HTML" expanded="true" />
+            <element signature="e#3032#3038#0#HTML" expanded="true" />
+            <element signature="e#3038#3044#0#HTML" expanded="true" />
+            <element signature="e#3044#3050#0#HTML" expanded="true" />
+            <element signature="e#3050#3056#0#HTML" expanded="true" />
+            <element signature="e#3056#3062#0#HTML" expanded="true" />
+            <element signature="e#3062#3068#0#HTML" expanded="true" />
+            <element signature="e#3068#3074#0#HTML" expanded="true" />
+            <element signature="e#3074#3080#0#HTML" expanded="true" />
+            <element signature="e#3080#3086#0#HTML" expanded="true" />
+            <element signature="e#3086#3092#0#HTML" expanded="true" />
+            <element signature="e#3092#3098#0#HTML" expanded="true" />
+            <element signature="e#3098#3104#0#HTML" expanded="true" />
+            <element signature="e#3104#3110#0#HTML" expanded="true" />
+            <element signature="e#4039#4061#0#HTML" expanded="true" />
+            <marker date="1529583841588" expanded="true" signature="237:269" ph="SELECT * FRO... gallery" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="185" column="10" lean-forward="true" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/action/addNavigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1529517389305" expanded="true" signature="692:795" ph="INSERT INTO navigation... " />
+            <marker date="1529517389305" expanded="true" signature="692:798" ph="INSERT INTO `navigation`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="95" lean-forward="true" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <folding>
+            <marker date="1529584593208" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/action/addGalleryDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1529584700068" expanded="true" signature="333:396" ph="INSERT INTO videos... " />
+            <marker date="1529584700068" expanded="true" signature="915:978" ph="INSERT INTO video... " />
           </folding>
         </state>
       </provider>

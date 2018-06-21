@@ -15,7 +15,7 @@
             border-radius: 5px;
             border: 1px inset ghostwhite;
             opacity: 0.8;
-            min-width: 280px;
+            min-width: 240px;
             display: inline-block;
             padding: 5px;
             text-align: center;

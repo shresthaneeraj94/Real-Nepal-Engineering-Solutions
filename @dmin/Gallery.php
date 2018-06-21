@@ -17,12 +17,12 @@ include_once "Includes/nav.php";
         <div class="" id="gallery">
             <div class="page-title">
                 <div class="title_left">
-                    <!--                    --><?php
-                    //                    if (isset($_SESSION['login_msg'])) {
-                    //                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['login_msg'] . "</div>";
-                    //                        unset($_SESSION['login_msg']);
-                    //                    }
-                    //                    ?>
+                    <?php
+                    if (isset($_SESSION['gallery_msg'])) {
+                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['gallery_msg'] . "</div>";
+                        unset($_SESSION['gallery_msg']);
+                    }
+                    ?>
                 </div>
 
                 <div class="title_right" style="float: right;">

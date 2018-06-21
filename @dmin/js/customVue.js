@@ -89,7 +89,6 @@ var navigation = new Vue({
 
 
 //GALLERY VUE JS
-
 var gallery = new Vue({
     el: '#gallery',
     data: {
@@ -165,5 +164,40 @@ var gallery = new Vue({
     },
     created: function () {
         this.getGallery()
+    }
+});
+
+
+//ADD DETAIL GALLERY
+var addDetail = new Vue({
+    el: '#addDetail',
+    data: {
+        img: 25,
+        vid: 25
+    },
+    methods: {
+        addImage: function () {
+            var imageBlock = "<div id='img-block-" + this.img + "'><i class=\"fa fa-image text-success\"> Image : </i><input type=\"file\" name=\"images[]\"><input type=\"text\" name=\"capImg[]\" placeholder=\"Image Caption\" required><hr></div>";
+            $('#img-vid-form').append(imageBlock);
+            this.img++;
+        },
+        addVideo: function () {
+            var videoBlock = "<div id='vid-block-" + this.vid + "'><i class=\"fa fa-video-camera text-success\"> Video : </i><input type=\"text\" name=\"videos[]\" placeholder=\"Video URL\"><input type=\"text\" name=\"capVideo[]\" placeholder=\"Video Caption\" required><hr></div>";
+            $('#img-vid-form').append(videoBlock);
+            this.vid++;
+        },
+        test: function () {
+        },
+        minusImage: function () {
+            this.img--;
+            $('#img-block-' + this.img).remove();
+        },
+        minusVideo: function () {
+            this.vid--;
+            $('#vid-block-' + this.vid).remove();
+        }
+    },
+    created: function () {
+        this.addImage();
     }
 });

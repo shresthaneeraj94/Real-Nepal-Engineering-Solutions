@@ -1,20 +1,11 @@
 <?php
 $title = "RNES - Detail";
-
-include_once '@dmin/action/DBConnect.php';
-
-$id = isset($_GET['id']) ? $_GET['id'] : '0';
-$sql = "SELECT * FROM navigation WHERE id=?";
-$query = $conn->prepare($sql);
-$query->execute([$id]);
-$output = $query->fetch();
-
-if (empty($output)) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/productList');
-    die;
-}
-
 include_once 'includes/header.php';
+
+$sql = "SELECT * FROM navigation";
+$query = $conn->prepare($sql);
+$query->execute();
+$output = $query->fetchAll();
 
 ?>
 
@@ -27,8 +18,7 @@ include_once 'includes/header.php';
                     </div>
                     <ol class="breadcrumb">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li class="active">Single Portfolio</li>
+                        <li class="active">Portfolio</li>
                     </ol>
                 </div>
             </div><!-- /.row -->
@@ -41,19 +31,7 @@ include_once 'includes/header.php';
                 <div class="row">
                     <div class="col-md-7">
                         <div class="portfolio-content">
-                            <img src="img/work/portfolio-10.jpg" class="img-responsive" alt="">
-                            <p>Efficiently communicate installed base leadership skills with extensible testing
-                                procedures.
-                                Enthusiastically evolve leading-edge scenarios.</p>
-
-                            <ul class="check-square">
-                                <li>Globally exploit interoperable infrastructures</li>
-                                <li>Collaboratively initiate customer directed manufactured</li>
-                                <li>Competently whiteboard backend information rather</li>
-                                <li>Efficiently empower next-generation sources</li>
-                                <li>Uniquely expedite sticky e-markets via orthogonal</li>
-                                <li>Professionally strategize orthogonal core competency</li>
-                            </ul>
+                            <?php print_r($output) ?>
                         </div> <!-- /.portfolio-content -->
                     </div> <!-- /.col-md-7 -->
 
@@ -62,10 +40,6 @@ include_once 'includes/header.php';
                             <p><span class="title">Project Name:</span> Interior Design</p>
                             <p><span class="title">Client:</span> ThemeHippo</p>
                             <p><span class="title">Client Info :</span></p>
-
-                            <p><?php
-                                print_r($output) ?></p>
-
                             <span class="block-title">Client Testimonial :</span>
                             <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna.
                                 Sed et
