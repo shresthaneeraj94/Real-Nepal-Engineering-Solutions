@@ -59,13 +59,15 @@ include_once "Includes/nav.php";
                             <br><br>
                             <div class="row text-center">
                                 <div class="col-md-4">
-                                    <a href="/@dmin/AddImage">
-                                        <i class="fa fa-image fa-5x"></i>
+                                    <a href="/@dmin/Navigation">
+                                        <i class="fa fa-credit-card fa-5x"></i>
+                                        <h3>Navbar Tabs</h3>
                                     </a>
                                 </div>
                                 <div class="col-md-4">
-                                    <a href="/@dmin/AddVideo">
-                                        <i class="fa fa-video-camera fa-5x"></i>
+                                    <a href="/@dmin/Gallery">
+                                        <i class="fa fa-camera fa-5x"></i>
+                                    <h3>Gallery</h3>
                                     </a>
                                 </div>
                             </div>

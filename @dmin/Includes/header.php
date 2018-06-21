@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="/@dmin/gentelella/bootstrap.min.css">
     <link rel="stylesheet" href="/@dmin/gentelella/nprogress.css">
     <link rel="stylesheet" href="/@dmin/gentelella/custom.min.css">
+    <style>
+        .imgvid input{
+            border-radius: 5px;
+            border: 1px inset ghostwhite;
+            opacity: 0.8;
+            min-width: 280px;
+            display: inline-block;
+            padding: 5px;
+            text-align: center;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body class="nav-md">
 <div class="container body">

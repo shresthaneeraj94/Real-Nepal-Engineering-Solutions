@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddf0d08f-1b53-4dfe-9e79-841fc9aba218" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/AddDetailGallery.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/action/addGallery.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/api/deleteGallery.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/api/getByCategory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/api/getEditGallery.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/api/getGallery.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/@dmin/api/updateGallery.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/@dmin/AddImage.php" afterPath="$PROJECT_DIR$/@dmin/AddGallery.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/AddNavigation.php" afterPath="$PROJECT_DIR$/@dmin/AddNavigation.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/AddVideo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Image.php" afterPath="$PROJECT_DIR$/@dmin/Gallery.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Includes/header.php" afterPath="$PROJECT_DIR$/@dmin/Includes/header.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Includes/nav.php" afterPath="$PROJECT_DIR$/@dmin/Includes/nav.php" />
       <change beforePath="$PROJECT_DIR$/@dmin/Navigation.php" afterPath="$PROJECT_DIR$/@dmin/Navigation.php" />
-      <change beforePath="$PROJECT_DIR$/@dmin/action/addNavigation.php" afterPath="$PROJECT_DIR$/@dmin/action/addNavigation.php" />
-      <change beforePath="$PROJECT_DIR$/@dmin/api/updateNavigation.php" afterPath="$PROJECT_DIR$/@dmin/api/updateNavigation.php" />
+      <change beforePath="$PROJECT_DIR$/@dmin/Video.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/@dmin/home.php" afterPath="$PROJECT_DIR$/@dmin/home.php" />
       <change beforePath="$PROJECT_DIR$/@dmin/js/customVue.js" afterPath="$PROJECT_DIR$/@dmin/js/customVue.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +29,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf>
+      <file leaf-file-name="customVue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="448">
+              <caret line="162" column="73" lean-forward="false" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNavigation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/AddNavigation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/Gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="70" column="84" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
+              <folding>
+                <element signature="e#541#599#0#PHP" expanded="true" />
+                <element signature="e#4216#4333#0#HTML" expanded="true" />
+                <marker date="1529565722744" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddDetailGallery.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/@dmin/AddDetailGallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="83" column="117" lean-forward="false" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
+              <folding>
+                <element signature="e#2039#2073#0#HTML" expanded="true" />
+                <marker date="1529569889916" expanded="true" signature="237:269" ph="SELECT * FRO... gallery" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/Includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddGallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/@dmin/AddGallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <marker date="1529563376846" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,25 +133,34 @@
         <option value="$PROJECT_DIR$/@dmin/action/loginAction.php" />
         <option value="$PROJECT_DIR$/@dmin/action/logout.php" />
         <option value="$PROJECT_DIR$/@dmin/Includes/authCheck.php" />
-        <option value="$PROJECT_DIR$/@dmin/home.php" />
         <option value="$PROJECT_DIR$/@dmin/index.php" />
         <option value="$PROJECT_DIR$/@dmin/action/DBConnect.php" />
         <option value="$PROJECT_DIR$/js/vendor/axios.js" />
         <option value="$PROJECT_DIR$/@dmin/Includes/footer.php" />
-        <option value="$PROJECT_DIR$/@dmin/Includes/header.php" />
-        <option value="$PROJECT_DIR$/@dmin/Includes/nav.php" />
-        <option value="$PROJECT_DIR$/@dmin/AddNavigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/getNavigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/getEditNavigation.php" />
         <option value="$PROJECT_DIR$/pages/product.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/@dmin/action/addNavigation.php" />
-        <option value="$PROJECT_DIR$/@dmin/Navigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/updateNavigation.php" />
         <option value="$PROJECT_DIR$/@dmin/api/deleteNavigation.php" />
-        <option value="$PROJECT_DIR$/@dmin/js/customVue.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/@dmin/api/getByCategory.php" />
+        <option value="$PROJECT_DIR$/@dmin/home.php" />
+        <option value="$PROJECT_DIR$/@dmin/Navigation.php" />
+        <option value="$PROJECT_DIR$/@dmin/Includes/nav.php" />
+        <option value="$PROJECT_DIR$/@dmin/AddGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/api/getGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/api/getEditGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/api/updateGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/api/deleteGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/action/addGallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/AddNavigation.php" />
+        <option value="$PROJECT_DIR$/@dmin/Gallery.php" />
+        <option value="$PROJECT_DIR$/@dmin/js/customVue.js" />
+        <option value="$PROJECT_DIR$/@dmin/Includes/header.php" />
+        <option value="$PROJECT_DIR$/@dmin/AddDetailGallery.php" />
       </list>
     </option>
   </component>
@@ -121,6 +201,22 @@
               <item name="Template" type="b2602c69:ProjectViewProjectNode" />
               <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="@dmin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="@dmin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="action" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,19 +230,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../A3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\api" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
-      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\action" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\Includes" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\gentelella\css" />
       <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\gentelella" />
       <recent name="C:\xampp\htdocs\Real Nepal Engineering Solution" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\api" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\js" />
+      <recent name="C:\xampp\htdocs\_PROJECT\Template\@dmin\action" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,17 +279,18 @@
       <workItem from="1529488408282" duration="9820000" />
       <workItem from="1529506712832" duration="6661000" />
       <workItem from="1529517165476" duration="1156000" />
-      <workItem from="1529525281789" duration="1727000" />
+      <workItem from="1529525281789" duration="1878000" />
+      <workItem from="1529558685448" duration="11147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39239000" />
+    <option name="totallyTimeSpent" value="50537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -201,7 +298,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -225,55 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8296">
-          <caret line="488" column="26" lean-forward="false" selection-start-line="488" selection-start-column="26" selection-end-line="488" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="25" lean-forward="false" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3111">
@@ -342,24 +390,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/gentelella/css/fontawesome-all.min.css" />
     <entry file="file://$PROJECT_DIR$/@dmin/gentelella/css/font-awesome.css" />
-    <entry file="file://$PROJECT_DIR$/@dmin/AddImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/AddVideo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="60" column="39" lean-forward="false" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -391,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -416,20 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Includes/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="65" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -441,20 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/AddNavigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/api/getNavigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -478,13 +477,6 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -513,10 +505,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/api/updateNavigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/api/getNavigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1529507694454" expanded="true" signature="55:79" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/api/getByCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1529560089454" expanded="true" signature="86:127" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <marker date="1529561650414" expanded="true" signature="3275:3334" ph="..." />
+            <marker date="1529561650414" expanded="true" signature="3551:3610" ph="..." />
+            <marker date="1529561650414" expanded="true" signature="5702:5706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/@dmin/action/addNavigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="2" />
           <folding>
             <marker date="1529517389305" expanded="true" signature="692:795" ph="INSERT INTO navigation... " />
             <marker date="1529517389305" expanded="true" signature="692:798" ph="INSERT INTO `navigation`... " />
@@ -524,28 +570,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/Navigation.php">
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="105" column="99" lean-forward="false" selection-start-line="105" selection-start-column="99" selection-end-line="105" selection-end-column="99" />
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/api/getEditGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
-            <element signature="e#359#417#0#PHP" expanded="true" />
-            <marker date="1529518083498" expanded="true" signature="3016:3075" ph="..." />
-            <marker date="1529518083498" expanded="true" signature="3292:3351" ph="..." />
-            <marker date="1529518083498" expanded="true" signature="5824:5877" ph="..." />
+            <marker date="1529564355374" expanded="true" signature="108:140" ph="SELECT * FRO... gallery" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/api/updateNavigation.php">
+    <entry file="file://$PROJECT_DIR$/@dmin/api/getGallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
-            <marker date="1529526098100" expanded="true" signature="299:302" ph="SELECT image... navigation" />
-            <marker date="1529526098100" expanded="true" signature="299:338" ph="SELECT image... navigation" />
-            <marker date="1529526098100" expanded="true" signature="822:914" ph="UPDATE navigation... " />
-            <marker date="1529526098100" expanded="true" signature="1157:1241" ph="UPDATE navigation... " />
+            <marker date="1529563774646" expanded="true" signature="55:76" ph="SELECT * FRO... gallery" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/api/updateGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="40" column="2" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding>
+            <marker date="1529564976883" expanded="true" signature="273:309" ph="SELECT image... gallery" />
+            <marker date="1529564976883" expanded="true" signature="805:888" ph="UPDATE navigation... " />
+            <marker date="1529564976883" expanded="true" signature="1125:1200" ph="UPDATE navigation... " />
           </folding>
         </state>
       </provider>
@@ -561,19 +621,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
+    <entry file="file://$PROJECT_DIR$/@dmin/api/deleteGallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1529564976787" expanded="true" signature="111:147" ph="SELECT image... gallery" />
+            <marker date="1529564976787" expanded="true" signature="375:405" ph="DELETE FROM gallery... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Includes/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/@dmin/action/addGallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="499">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1529565440731" expanded="true" signature="671:763" ph="INSERT INTO gallery... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/AddGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <marker date="1529563376846" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/AddNavigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="70" column="84" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
+          <folding>
+            <element signature="e#541#599#0#PHP" expanded="true" />
+            <element signature="e#4216#4333#0#HTML" expanded="true" />
+            <marker date="1529565722744" expanded="true" signature="108:132" ph="SELECT * FRO... navigation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/js/customVue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="162" column="73" lean-forward="false" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/Includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@dmin/AddDetailGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="83" column="117" lean-forward="false" selection-start-line="83" selection-start-column="117" selection-end-line="83" selection-end-column="117" />
+          <folding>
+            <element signature="e#2039#2073#0#HTML" expanded="true" />
+            <marker date="1529569889916" expanded="true" signature="237:269" ph="SELECT * FRO... gallery" />
+          </folding>
         </state>
       </provider>
     </entry>

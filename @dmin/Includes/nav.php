@@ -39,17 +39,10 @@
                             <li><a href="/@dmin/AddNavigation">Add Navigation</a></li>
                         </ul>
                     </li>
-                    <li><a><i class="fa fa-image"></i> Images <span class="fa fa-chevron-down"></span></a>
+                    <li><a><i class="fa fa-camera"></i> Gallery <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/@dmin/Image">View Image</a></li>
-                            <li><a href="/@dmin/AddImage">Add Image</a></li>
-                        </ul>
-                    </li>
-                    <li><a><i class="fa fa-video-camera"></i>Videos<span
-                                    class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu">
-                            <li><a href="/@dmin/Video">View Video</a></li>
-                            <li><a href="/@dmin/AddVideo">Add Video</a></li>
+                            <li><a href="/@dmin/Gallery">View Gallery List</a></li>
+                            <li><a href="/@dmin/AddGallery">Add Gallery</a></li>
                         </ul>
                     </li>
 

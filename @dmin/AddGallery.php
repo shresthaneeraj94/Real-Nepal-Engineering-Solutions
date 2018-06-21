@@ -1,5 +1,12 @@
 <?php
 include_once "Includes/authCheck.php";
+include_once 'action/DBConnect.php';
+//navigation list
+$sql = "SELECT * FROM navigation";
+$query = $conn->prepare($sql);
+$query->execute();
+$list = $query->fetchAll();
+
 include_once "Includes/header.php";
 include_once "Includes/nav.php";
 
@@ -11,9 +18,9 @@ include_once "Includes/nav.php";
             <div class="page-title">
                 <div class="title_left">
                     <?php
-                    if (isset($_SESSION['nav_msg'])) {
-                        echo "<div class='alert alert-warning text-center'>" . $_SESSION['nav_msg'] . "</div>";
-                        unset($_SESSION['nav_msg']);
+                    if (isset($_SESSION['gallery_msg'])) {
+                        echo "<div class='alert alert-warning text-center'>" . $_SESSION['gallery_msg'] . "</div>";
+                        unset($_SESSION['gallery_msg']);
                     }
                     ?>
                 </div>
@@ -21,10 +28,7 @@ include_once "Includes/nav.php";
                 <div class="title_right" style="float: right;">
                     <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                         <div class="input-group">
-<!--                            <input type="text" class="form-control" placeholder="Search for...">-->
-<!--                            <span class="input-group-btn">-->
-<!--                      <button class="btn btn-default" type="button">Go!</button>-->
-<!--                    </span>-->
+
                         </div>
                     </div>
                 </div>
@@ -36,35 +40,25 @@ include_once "Includes/nav.php";
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Add Navigation</h2>
+                            <h2>Add Gallery</h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
                             <div class="row">
 
-                                <form action="/@dmin/action/addNavigation.php" method="post"
+                                <form action="/@dmin/action/addGallery.php" method="post"
                                       enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label> <i class="fa fa-book"></i> Title : </label>
                                             <input type="text" name="title" class="form-control" required>
-                                            <br> <label> <i class="fa fa-briefcase"></i> Category : </label>
-                                            <select name="category" class="form-control">
-                                                <option value="product">Product</option>
-                                                <option value="services">Services</option>
-                                                <option value="designing">Designing</option>
+                                            <br> <label> <i class="fa fa-briefcase"></i> Navigation Link : </label>
+                                            <select name="navigation" class="form-control">
+                                                <?php foreach ($list as $item)echo "<option value='" . $item['id'] . "'>" . $item['title'] . "</option>"; ?>
                                             </select>
                                             <br>
                                         </div>
                                         <div class="col-md-6">
-                                            <label> Tab Status : </label>
-                                            <br>
-                                            <i class="fa fa-check fa-2x"></i> <input type="radio" name="tab_stat"
-                                                                                     value="1">
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-times fa-2x"></i> <input
-                                                    type="radio" name="tab_stat" value="0" checked>
-                                            <br>
-                                            <br>
                                             <label><i class="fa fa-image"> </i> Featured Image :</label>
                                             <input type="file" name="image" class="form-control">
                                         </div>
