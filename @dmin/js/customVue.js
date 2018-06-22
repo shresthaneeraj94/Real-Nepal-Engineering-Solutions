@@ -84,6 +84,12 @@ var navigation = new Vue({
     },
     created: function () {
         this.getNavigation()
+    },
+    filters: {
+        strlimit: function (text) {
+            return text.slice(0, 50) + (50 < text.length ? '...' : '')
+        }
+
     }
 });
 
@@ -164,6 +170,12 @@ var gallery = new Vue({
     },
     created: function () {
         this.getGallery()
+    },
+    filters: {
+        strlimit: function (text) {
+            return text.slice(0, 50) + (50 < text.length ? '...' : '')
+        }
+
     }
 });
 
@@ -224,6 +236,12 @@ var image = new Vue({
     },
     created: function () {
         this.getImage();
+    },
+    filters: {
+        strlimit: function (text) {
+            return text.slice(0, 50) + (50 < text.length ? '...' : '')
+        }
+
     }
 });
 
@@ -249,5 +267,11 @@ var video = new Vue({
     },
     created: function () {
         this.getVideo();
+    },
+    filters: {
+        strlimit: function (text) {
+            return text.slice(0, 50) + (50 < text.length ? '...' : '')
+        }
+
     }
 });

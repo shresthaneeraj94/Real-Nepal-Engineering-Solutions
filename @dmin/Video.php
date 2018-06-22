@@ -58,17 +58,17 @@ include_once "Includes/nav.php";
                                     </tr>
                                     <tr v-for="(video,index) in videoList">
                                         <td> {{ ++index }}</td>
-                                        <td> {{ video.name }}</td>
-                                        <td> {{ video.caption }}</td>
+                                        <td>
+                                            <video width="250" controls :src="video.name"></video>
+                                        </td>
+                                        <td> {{ video.caption |strlimit}}</td>
                                         <td> {{ video.gallery_id }}</td>
-<!--                                        <td>-->
-<!--                                            <button class="fa fa-edit btn btn-default btn-xs"-->
-<!--                                                    v-on:click="galleryEdit(gallery.id)"></button>-->
-<!--                                        </td>-->
-<!--                                        <td>-->
-<!--                                            <button class="fa fa-trash btn btn-danger btn-xs"-->
-<!--                                                    v-on:click="galleryDelete(gallery.id)"></button>-->
-<!--                                        </td>-->
+                                        <td>
+                                            <button class="fa fa-edit btn btn-default btn-xs"></button>
+                                        </td>
+                                        <td>
+                                            <button class="fa fa-trash btn btn-danger btn-xs"></button>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>

@@ -57,9 +57,11 @@ include_once "Includes/nav.php";
                                     </tr>
                                     <tr v-for="(nav,index) in navList">
                                         <td> {{ ++index }}</td>
-                                        <td> {{ nav.title }}</td>
-                                        <td> {{ nav.image }}</td>
-                                        <td> {{ nav.detail }}</td>
+                                        <td> {{ nav.title |strlimit}}</td>
+                                        <td>
+                                            <img :src="'/img/Navigation/'+nav.image" alt="image" style="height:50px;">
+                                        </td>
+                                        <td> {{ nav.detail | strlimit }}</td>
                                         <td> {{ nav.category }}</td>
                                         <td> {{ nav.tab_stat }}</td>
                                         <td> {{ nav.created_at }}</td>

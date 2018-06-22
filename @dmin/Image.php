@@ -17,12 +17,12 @@ include_once "Includes/nav.php";
         <div class="" id="image">
             <div class="page-title">
                 <div class="title_left">
-<!--                    --><?php
-//                    if (isset($_SESSION['gallery_msg'])) {
-//                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['gallery_msg'] . "</div>";
-//                        unset($_SESSION['gallery_msg']);
-//                    }
-//                    ?>
+                    <!--                    --><?php
+                    //                    if (isset($_SESSION['gallery_msg'])) {
+                    //                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['gallery_msg'] . "</div>";
+                    //                        unset($_SESSION['gallery_msg']);
+                    //                    }
+                    //                    ?>
                 </div>
 
                 <div class="title_right" style="float: right;">
@@ -58,17 +58,17 @@ include_once "Includes/nav.php";
                                     </tr>
                                     <tr v-for="(image,index) in imageList">
                                         <td> {{ ++index }}</td>
-                                        <td> {{ image.name }}</td>
-                                        <td> {{ image.caption }}</td>
+                                        <td>
+                                            <img :src="'/img/Gallery/images/'+image.name" alt="image" style="height:50px;">
+                                        </td>
+                                        <td> {{ image.caption |strlimit}}</td>
                                         <td> {{ image.gallery_id }}</td>
-<!--                                        <td>-->
-<!--                                            <button class="fa fa-edit btn btn-default btn-xs"-->
-<!--                                                    v-on:click="galleryEdit(gallery.id)"></button>-->
-<!--                                        </td>-->
-<!--                                        <td>-->
-<!--                                            <button class="fa fa-trash btn btn-danger btn-xs"-->
-<!--                                                    v-on:click="galleryDelete(gallery.id)"></button>-->
-<!--                                        </td>-->
+                                        <td>
+                                            <button class="fa fa-edit btn btn-default btn-xs"></button>
+                                        </td>
+                                        <td>
+                                            <button class="fa fa-trash btn btn-danger btn-xs"></button>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>

@@ -61,9 +61,11 @@ include_once "Includes/nav.php";
                                     </tr>
                                     <tr v-for="(gallery,index) in galleryList">
                                         <td> {{ ++index }}</td>
-                                        <td> {{ gallery.title }}</td>
-                                        <td> {{ gallery.image }}</td>
-                                        <td> {{ gallery.detail }}</td>
+                                        <td> {{ gallery.title |strlimit}}</td>
+                                        <td>
+                                            <img :src="'/img/Gallery/featured/'+gallery.image" alt="image" style="height:50px;">
+                                        </td>
+                                        <td> {{ gallery.detail |strlimit}}</td>
                                         <td> {{ gallery.navigation_id }}</td>
                                         <td> {{ gallery.created_at }}</td>
                                         <td>
