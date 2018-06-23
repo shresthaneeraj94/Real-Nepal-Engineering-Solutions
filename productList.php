@@ -2,9 +2,17 @@
 $title = "RNES - Detail";
 include_once 'includes/header.php';
 
-$sql = "SELECT * FROM navigation";
-$query = $conn->prepare($sql);
-$query->execute();
+if (isset($_GET['id'])) {
+    $category = $_GET['id'];
+    $sql = "SELECT * FROM navigation WHERE category=?";
+    $query = $conn->prepare($sql);
+    $query->execute([$category]);
+
+} else {
+    $sql = "SELECT * FROM navigation WHERE category!=?";
+    $query = $conn->prepare($sql);
+    $query->execute(['Gallery']);
+}
 $output = $query->fetchAll();
 
 ?>

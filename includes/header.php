@@ -106,7 +106,7 @@ $designing = $query_3->fetchAll();
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#">Products <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="/productList?id=product">Products <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
@@ -121,7 +121,7 @@ $designing = $query_3->fetchAll();
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
 
-                                    <li class="dropdown"><a href="#">Services <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="/productList?id=services">Services <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
@@ -137,7 +137,7 @@ $designing = $query_3->fetchAll();
                                     </li>
 
 
-                                    <li class="dropdown"><a href="#">Electrical Design <b class="caret"></b></a>
+                                    <li class="dropdown"><a href="/productList?id=designing">Electrical Design <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
