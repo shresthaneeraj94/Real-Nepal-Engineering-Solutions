@@ -17,12 +17,12 @@ include_once "Includes/nav.php";
         <div class="" id="video">
             <div class="page-title">
                 <div class="title_left">
-<!--                    --><?php
-//                    if (isset($_SESSION['gallery_msg'])) {
-//                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['gallery_msg'] . "</div>";
-//                        unset($_SESSION['gallery_msg']);
-//                    }
-//                    ?>
+                    <!--                    --><?php
+                    //                    if (isset($_SESSION['gallery_msg'])) {
+                    //                        echo "<div class='alert alert-success lead text-center'>" . $_SESSION['gallery_msg'] . "</div>";
+                    //                        unset($_SESSION['gallery_msg']);
+                    //                    }
+                    //                    ?>
                 </div>
 
                 <div class="title_right" style="float: right;">
@@ -59,18 +59,29 @@ include_once "Includes/nav.php";
                                     <tr v-for="(video,index) in videoList">
                                         <td> {{ ++index }}</td>
                                         <td>
-                                            <video width="250" controls :src="video.name"></video>
+                                            <embed height="140" :src="'https://www.youtube.com/embed/'+video.name">
                                         </td>
                                         <td> {{ video.caption |strlimit}}</td>
                                         <td> {{ video.gallery_id }}</td>
                                         <td>
-                                            <button class="fa fa-edit btn btn-default btn-xs"></button>
+                                            <button class="fa fa-edit btn btn-default btn-xs"
+                                                    v-on:click="editVideo(video.id)"></button>
                                         </td>
                                         <td>
-                                            <button class="fa fa-trash btn btn-danger btn-xs"></button>
+                                            <button class="fa fa-trash btn btn-danger btn-xs"
+                                                    v-on:click="deleteVideo(video.id)"></button>
                                         </td>
                                     </tr>
                                 </table>
+                                <div class='caption'>
+                                    <i class='fa fa-tag'> Caption : </i>
+                                    <i class='alignright fa fa-times fa-2x' v-on:click='closeCap()'></i>
+                                    <textarea rows='5' style='resize: none' v-model='caption'
+                                              class='form-control'></textarea>
+                                    <br>
+                                    <button class='btn btn-success' v-on:click='submitCap()'>Submit</button>
+                                </div>
+
                             </div>
                             <!--content here-->
                         </div>

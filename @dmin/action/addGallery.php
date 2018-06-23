@@ -12,7 +12,8 @@ $title = $_POST['title'];
 $navigation = $_POST['navigation'];
 $detail = isset($_POST['detail']) ? $_POST['detail'] : '';
 $image = '';
-$time = time();
+date_default_timezone_set('Asia/Kathmandu');
+$time = date("Y-m-d H:i:s", time());
 
 if (!empty($_FILES)) {
     $image = $_FILES['image']['tmp_name'];

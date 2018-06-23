@@ -101,7 +101,8 @@ var gallery = new Vue({
         message: 'hello',
         galleryList: '',
         editGallery: '',
-        featuredImg: ''
+        featuredImg: '',
+        searchTerm: ''
     },
     methods: {
         getGallery: function () {
@@ -115,7 +116,7 @@ var gallery = new Vue({
             });
         },
         galleryEdit: function (value) {
-            console.log(value)
+            console.log(value);
             var mainData = this;
             axios.get('api/getEditGallery.php?id=' + value)
                 .then(function (response) {
@@ -166,6 +167,17 @@ var gallery = new Vue({
         addDetail: function (value) {
             console.log(value);
             window.location.replace('/@dmin/AddDetailGallery?id=' + value);
+        },
+        search: function () {
+            var mainData = this;
+            var term = this.searchTerm;
+            axios.get('api/searchGallery.php?search='+term)
+                .then(function (response) {
+                    mainData.galleryList = response.data;
+                    // console.log(mainData.navList);
+                }).catch(function (error) {
+                // Error handling
+            });
         }
     },
     created: function () {
@@ -219,7 +231,9 @@ var addDetail = new Vue({
 var image = new Vue({
     el: '#image',
     data: {
-        imageList: ''
+        imageList: '',
+        caption: '',
+        editId: ''
     },
     methods: {
         getImage: function () {
@@ -232,6 +246,42 @@ var image = new Vue({
                 // Error handling
             });
 
+        },
+        deleteImage: function (value) {
+            var mainData = this;
+            if (confirm('Are you sure you want to delete this image ?')) {
+                axios.get('api/deleteImage.php?id=' + value)
+                    .then(function (response) {
+                        mainData.getImage();
+                        alert('Image data deleted !');
+                    }).catch(function (error) {
+                    // Error handling
+                });
+            }
+        },
+        editImage: function (value) {
+            $('.caption').show();
+            this.editId = value;
+        },
+        submitCap: function () {
+            var mainData = this;
+            var formData = new FormData();
+            formData.append('id', this.editId);
+            formData.append('caption', this.caption);
+
+            axios.post('api/updateImage.php', formData)
+                .then(function (response) {
+                    console.log(response);
+                    mainData.getImage();
+                }).catch(function (error) {
+                // Error handling
+            });
+            this.closeCap();
+        },
+        closeCap: function () {
+            $('.caption').hide();
+            this.caption = '';
+            this.editId = '';
         }
     },
     created: function () {
@@ -250,7 +300,9 @@ var image = new Vue({
 var video = new Vue({
     el: '#video',
     data: {
-        videoList: ''
+        videoList: '',
+        caption: '',
+        editId: ''
     },
     methods: {
         getVideo: function () {
@@ -263,11 +315,52 @@ var video = new Vue({
                 // Error handling
             });
 
+        },
+        deleteVideo: function (value) {
+            var mainData = this;
+            if (confirm('Are you sure you want to delete this video ?')) {
+                axios.get('api/deleteVideo.php?id=' + value)
+                    .then(function (response) {
+                        window.location.replace('/@dmin/Video');
+                        alert('Video data deleted !');
+                    }).catch(function (error) {
+                    // Error handling
+                });
+            }
+        },
+        editVideo: function (value) {
+            $('.caption').show();
+            this.editId = value;
+        },
+        submitCap: function () {
+            var mainData = this;
+            var formData = new FormData();
+            formData.append('id', this.editId);
+            formData.append('caption', this.caption);
+
+            axios.post('api/updateVideo.php', formData)
+                .then(function (response) {
+                    console.log(response);
+                    mainData.getVideo();
+                }).catch(function (error) {
+                // Error handling
+            });
+            this.closeCap();
+        },
+        closeCap: function () {
+            $('.caption').hide();
+            this.caption = '';
+            this.editId = '';
         }
+
     },
-    created: function () {
-        this.getVideo();
-    },
+    created:
+
+        function () {
+            this.getVideo();
+        }
+
+    ,
     filters: {
         strlimit: function (text) {
             return text.slice(0, 50) + (50 < text.length ? '...' : '')
