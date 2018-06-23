@@ -171,7 +171,7 @@ var gallery = new Vue({
         search: function () {
             var mainData = this;
             var term = this.searchTerm;
-            axios.get('api/searchGallery.php?search='+term)
+            axios.get('api/searchGallery.php?search=' + term)
                 .then(function (response) {
                     mainData.galleryList = response.data;
                     // console.log(mainData.navList);
@@ -233,7 +233,9 @@ var image = new Vue({
     data: {
         imageList: '',
         caption: '',
-        editId: ''
+        editId: '',
+        gallerySearchList: '',
+        searchImage: 'all'
     },
     methods: {
         getImage: function () {
@@ -282,10 +284,35 @@ var image = new Vue({
             $('.caption').hide();
             this.caption = '';
             this.editId = '';
+        },
+        getGalleryList: function () {
+            var mainData = this;
+            axios.get('api/getGallery.php')
+                .then(function (response) {
+                    mainData.gallerySearchList = response.data;
+                    // console.log(mainData.gallerySearchList);
+                }).catch(function (error) {
+                // Error handling
+            });
+        },
+        getByGallery: function () {
+            var mainData = this;
+            if (this.searchImage === 'all') {
+                this.getImage();
+            } else {
+                axios.get('api/getByGallery.php?type=image&gallery=' + mainData.searchImage)
+                    .then(function (response) {
+                        mainData.imageList = response.data;
+                        // console.log(mainData.navList);
+                    }).catch(function (error) {
+                    // Error handling
+                });
+            }
         }
     },
     created: function () {
         this.getImage();
+        this.getGalleryList();
     },
     filters: {
         strlimit: function (text) {
@@ -302,7 +329,9 @@ var video = new Vue({
     data: {
         videoList: '',
         caption: '',
-        editId: ''
+        editId: '',
+        gallerySearchList: '',
+        searchVideo: 'all'
     },
     methods: {
         getVideo: function () {
@@ -351,16 +380,37 @@ var video = new Vue({
             $('.caption').hide();
             this.caption = '';
             this.editId = '';
+        },
+        getGalleryList: function () {
+            var mainData = this;
+            axios.get('api/getGallery.php')
+                .then(function (response) {
+                    mainData.gallerySearchList = response.data;
+                    // console.log(mainData.gallerySearchList);
+                }).catch(function (error) {
+                // Error handling
+            });
+        },
+        getByGallery: function () {
+            var mainData = this;
+            if (this.searchVideo === 'all') {
+                this.getVideo();
+            } else {
+                axios.get('api/getByGallery.php?type=video&gallery=' + mainData.searchVideo)
+                    .then(function (response) {
+                        mainData.videoList = response.data;
+                        // console.log(mainData.navList);
+                    }).catch(function (error) {
+                    // Error handling
+                });
+            }
         }
 
     },
-    created:
-
-        function () {
-            this.getVideo();
-        }
-
-    ,
+    created: function () {
+        this.getVideo();
+        this.getGalleryList();
+    },
     filters: {
         strlimit: function (text) {
             return text.slice(0, 50) + (50 < text.length ? '...' : '')

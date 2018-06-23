@@ -28,10 +28,14 @@ include_once "Includes/nav.php";
                 <div class="title_right" style="float: right;">
                     <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for...">
-                            <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
+                            <i class="fa fa-briefcase"> Search By Gallery : </i>
+                            <br>
+                            <Select v-model="searchVideo" class="form-control" v-on:change="getByGallery()">
+                                <option value="all">Show All</option>
+                                <option v-for="gallery in gallerySearchList" v-bind:value="gallery.id">
+                                    {{gallery.title|strlimit}}
+                                </option>
+                            </Select>
                         </div>
                     </div>
                 </div>

@@ -36,7 +36,7 @@ if (isset($_SESSION['user'])) {
         <div class="col-md-6">
             <div class="text-center">
                 <h1>Real Nepal Engineering Solutions</h1>
-                <img src="docs/logo.png" alt="">
+                <img src="docs/logo.png" alt="logo" style="height: 100px">
                 <h3>Admin Panel Login</h3>
             </div>
             <form action="action/loginAction.php" method="post">
