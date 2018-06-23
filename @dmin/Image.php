@@ -59,18 +59,29 @@ include_once "Includes/nav.php";
                                     <tr v-for="(image,index) in imageList">
                                         <td> {{ ++index }}</td>
                                         <td>
-                                            <img :src="'/img/Gallery/images/'+image.name" alt="image" style="height:50px;">
+                                            <img :src="'/img/Gallery/images/'+image.name" alt="image"
+                                                 style="height:50px;">
                                         </td>
                                         <td> {{ image.caption |strlimit}}</td>
                                         <td> {{ image.gallery_id }}</td>
                                         <td>
-                                            <button class="fa fa-edit btn btn-default btn-xs"></button>
+                                            <button class="fa fa-edit btn btn-default btn-xs"
+                                                    v-on:click="editImage(image.id)"></button>
                                         </td>
                                         <td>
-                                            <button class="fa fa-trash btn btn-danger btn-xs"></button>
+                                            <button class="fa fa-trash btn btn-danger btn-xs"
+                                                    v-on:click="deleteImage(image.id)"></button>
                                         </td>
                                     </tr>
                                 </table>
+                                <div class='caption'>
+                                    <i class='fa fa-tag'> Caption : </i>
+                                    <i class='alignright fa fa-times fa-2x' v-on:click='closeCap()'></i>
+                                    <textarea rows='5' style='resize: none' v-model='caption'
+                                              class='form-control'></textarea>
+                                    <br>
+                                    <button class='btn btn-success' v-on:click='submitCap()'>Submit</button>
+                                </div>
                             </div>
                             <!--content here-->
                         </div>

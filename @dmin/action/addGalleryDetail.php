@@ -10,10 +10,12 @@ $id = $_POST['id'];
 if (!empty($_POST['videos'])) {
     $videos = $_POST['videos'];
     foreach ($videos as $key => $video) {
+
+        $vid_embed = explode('&', explode('=', $video)[1])[0];
         $capVideo = $_POST['capVideo'][$key];
         $sql_1 = "INSERT INTO videos( name, caption, gallery_id) VALUES( ?, ?, ?)";
         $query_1 = $conn->prepare($sql_1);
-        $query_1->execute([$video, $capVideo, $id]);
+        $query_1->execute([$vid_embed, $capVideo, $id]);
     }
 }
 
