@@ -181,13 +181,13 @@ var gallery = new Vue({
         }
     },
     created: function () {
-        this.getGallery()
+        this.getGallery();
     },
     filters: {
         strlimit: function (text) {
             return text.slice(0, 50) + (50 < text.length ? '...' : '')
-        }
 
+        }
     }
 });
 

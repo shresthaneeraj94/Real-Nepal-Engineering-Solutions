@@ -30,7 +30,7 @@ include_once "Includes/nav.php";
                         <div class="input-group">
                             <i class="fa fa-briefcase"> Search By Gallery : </i>
                             <br>
-                            <Select v-model="searchVideo" class="form-control" v-on:change="getByGallery()">
+                            <Select v-model="searchImage" class="form-control" v-on:change="getByGallery()">
                                 <option value="all">Show All</option>
                                 <option v-for="gallery in gallerySearchList" v-bind:value="gallery.id">
                                     {{gallery.title|strlimit}}

@@ -66,7 +66,7 @@ include_once "Includes/nav.php";
                                             <img :src="'/img/Gallery/featured/'+gallery.image" alt="image" style="height:50px;">
                                         </td>
                                         <td> {{ gallery.detail |strlimit}}</td>
-                                        <td> {{ gallery.navigation_id }}</td>
+                                        <td> {{gallery.navigation_id}}</td>
                                         <td> {{ gallery.created_at }}</td>
                                         <td>
                                             <button class="fa fa-plus btn btn-success btn-sm"
