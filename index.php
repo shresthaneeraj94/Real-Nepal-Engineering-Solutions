@@ -20,9 +20,7 @@ require_once "includes/header.php" ?>
                     <div class="phone animated lightSpeedIn">+977-01-4478746</div>
                     <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
 
-                    <p class="lead animated lightSpeedIn">It's a tag line, where you can write a key point of your idea.
-                        It is a long
-                        established fact that a reader will be distracted.</p>
+                    <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done here.</p>
 
                     <a class="btn btn-primary animated lightSpeedIn" href="#">Work With Us Today</a>
                 </div>

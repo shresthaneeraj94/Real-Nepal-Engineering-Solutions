@@ -11,7 +11,7 @@ include_once "includes/header.php"
                         <h1>Contact Us</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li class="active">Contact Us</li>
                     </ol>
                 </div>

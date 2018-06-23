@@ -1,10 +1,11 @@
-
 <section class="footer-widget-wrapper">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="footer-widget">
-                    <p class="subcsribe-text wow fadeInDown">Quickly utilize installed base channels before premier expertise. Conveniently extend web-enabled niche markets without 2.0 e-markets. Collaboratively incentivize .</p>
+                    <p class="subcsribe-text wow fadeInDown">Quickly utilize installed base channels before premier
+                        expertise. Conveniently extend web-enabled niche markets without 2.0 e-markets. Collaboratively
+                        incentivize .</p>
 
                     <h3 class="wow fadeInDown">Subscribe to newsletter</h3>
 
@@ -31,41 +32,38 @@
             </div><!-- /.col-md-6 -->
             <div class="col-md-2 col-sm-4 col-xs-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Customer Care</h3>
+                    <h3 class="wow fadeInDown">products</h3>
                     <ul class="wow fadeInDown">
-                        <li><a href="#">Customer Support</a></li>
-                        <li><a href="#">Platinum Support</a></li>
-                        <li><a href="#">Gold Support</a></li>
-                        <li><a href="#">Standard Support</a></li>
-                        <li><a href="#">Training</a></li>
-                        <li><a href="#">Online Training</a></li>
-                        <li><a href="#">Custom Training</a></li>
+                        <?php
+                        foreach ($product as $item1) {
+                            echo "<li title='" . $item1['title'] . "'><a href='/product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
                     </ul>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-2 -->
             <div class="col-md-2 col-sm-4 col-xs-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Information</h3>
+                    <h3 class="wow fadeInDown">Services</h3>
                     <ul class="wow fadeInDown">
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Awards</a></li>
-                        <li><a href="#">Video Clips</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <?php
+                        foreach ($services as $item2) {
+                            echo "<li title='" . $item2['title'] . "'><a href='/product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
                     </ul>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-2 -->
             <div class="col-md-2 col-sm-4 col-xs-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Solutions</h3>
+                    <h3 class="wow fadeInDown">Electrical Design</h3>
                     <ul class="wow fadeInDown">
-                        <li><a href="#">Contact Center</a></li>
-                        <li><a href="#">Knowledge</a></li>
-                        <li><a href="#">Management</a></li>
-                        <li><a href="#">Web Self-Service</a></li>
-                        <li><a href="#">Performance Metrics</a></li>
+                        <?php
+                        foreach ($designing as $item3) {
+                            echo "<li title='" . $item3['title'] . "'><a href='/product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
+
                     </ul>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-2 -->
@@ -79,7 +77,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright wow fadeInDown">
-                    <p>Copyright &copy; 2018 Real Nepal Engineering Solutions . All Rights Reserved. Designed by <a href="http://dunotdevelopers.com.np/">Dunot Developers PVT. LTD. </a> </p>
+                    <p>Copyright &copy; 2018 Real Nepal Engineering Solutions . All Rights Reserved. Designed by <a
+                                href="http://dunotdevelopers.com.np/">Dunot Developers PVT. LTD. </a></p>
                 </div><!-- /.copyright -->
             </div><!-- /.col-md-12 -->
         </div><!-- /.row -->
@@ -92,54 +91,50 @@
 
 <!-- ======== OFFCANVAS MENU ========= -->
 <div class="offcanvas-menu offcanvas-effect visible-xs">
-    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
+    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;
+    </button>
     <h3>Sidebar Menu</h3>
     <div>
         <div>
             <ul>
-                <li><a href="#">Home</a>
+                <li><a href="index"><i class="fa fa-home"></i>Home</a>
+                </li>
+
+                <li><a href="about"><i class="fa fa-life-ring"></i> About Us</a></li>
+
+                <li><a href="#"><i class="fa fa-hand-o-right"></i>Products</a>
                     <ul>
-                        <li class="active"><a href="index.html"><i class="fa fa-home"></i> Home Style One</a></li>
+                        <?php
+                        foreach ($product as $item1) {
+                            echo "<li title='" . $item1['title'] . "'><a href='/product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
                     </ul>
                 </li>
 
-                <li><a href="#">About</a>
+                <li><a href="#"><i class="fa fa-wrench"></i>Services</a>
                     <ul>
-                        <li><a href="about-us.html"><i class="fa fa-life-ring"></i> About Us</a></li>
-                        <li><a href="about-me.html"><i class="fa fa-user"></i> About me</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Blog</a>
-                    <ul>
-                        <li><a href="blog.html"><i class="fa fa-pencil-square-o"></i> Standard Blog</a></li>
-                        <li><a href="blog-single.html"><i class="fa fa-pencil"></i> Single Article</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Portfolio</a>
-                    <ul>
-                        <li><a href="portfolio-four.html"><i class="fa fa-picture-o"></i> Four Column</a></li>
-                        <li><a href="portfolio-three.html"><i class="fa fa-paper-plane-o"></i> Three Column</a></li>
-                        <li><a href="portfolio-two.html"><i class="fa fa-magic"></i> Two Column</a></li>
+                        <?php
+                        foreach ($services as $item2) {
+                            echo "<li title='" . $item2['title'] . "'><a href='/product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
                     </ul>
                 </li>
 
 
-                <li><a href="#">Pages</a>
+                <li><a href="#"><i class="fa fa-area-chart"></i>Electric Design</a>
                     <ul>
-                        <li><a href="job-page.html"><i class="fa fa-briefcase"></i> Job Page</a></li>
-                        <li><a href="clients-page.html"><i class="fa fa-coffee"></i> Clients Page</a></li>
-                        <li><a href="faq.html"><i class="fa fa-question-circle"></i> FAQ Page</a></li>
-                        <li><a href="typography.html"><i class="fa fa-puzzle-piece"></i> Typography Page</a></li>
+                        <?php
+                        foreach ($designing as $item3) {
+                            echo "<li title='" . $item3['title'] . "'><a href='/product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
+                        }
+                        ?>
                     </ul>
                 </li>
 
 
-                <li><a href="#">Contact</a>
-                    <ul>
-                        <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
-                    </ul>
+                <li><a href="contact"><i class="fa fa-envelope-o"></i>Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -154,7 +149,6 @@
         <div class="status-mes"></div>
     </div>
 </div>
-
 
 
 <!-- jQuery -->

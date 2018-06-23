@@ -92,19 +92,10 @@ $designing = $query_3->fetchAll();
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse navbar-collapse">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="index">Home</a></li>
 
-                                    <li class="dropdown"><a href="#">About <b class="caret"></b></a>
-                                        <!-- submenu-wrapper -->
-                                        <div class="submenu-wrapper submenu-wrapper-topbottom">
-                                            <div class="submenu-inner  submenu-inner-topbottom">
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="about-us.html">About Us</a></li>
-                                                    <li><a href="about-me.html">About Me</a></li>
-                                                </ul>
-                                            </div><!-- /.submenu-inner -->
-                                        </div> <!-- /.submenu-wrapper -->
-                                    </li>
+                                    <li><a href="about">About Us</a></li>
+
 
                                     <li class="dropdown"><a href="#">Products <b class="caret"></b></a>
                                         <!-- submenu-wrapper -->
@@ -150,7 +141,7 @@ $designing = $query_3->fetchAll();
                                             </div><!-- /.submenu-inner -->
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
-                                    <li><a href="pages/contact.php">Contact</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </div><!-- /.container -->
