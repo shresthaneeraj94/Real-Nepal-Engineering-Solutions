@@ -30,8 +30,20 @@
             background: whitesmoke;
             position: fixed;
             top: 30%;
-            left:30%;
+            left: 30%;
             width: 500px;
+        }
+        .mail{
+            display: none;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left:0;
+            padding:50px;
+            overflow-y: scroll;
+            z-index: 30;
+            background: whitesmoke;
         }
     </style>
 </head>

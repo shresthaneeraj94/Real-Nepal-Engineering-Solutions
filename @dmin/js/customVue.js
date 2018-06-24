@@ -418,3 +418,41 @@ var video = new Vue({
 
     }
 });
+
+
+//MAIL VUE JS
+
+var mail = new Vue({
+    el: '#mail',
+    data: {
+        mailData: ''
+    },
+    methods: {
+        mailDetail: function (value) {
+            var mainData = this;
+            axios.get('api/getMail.php?id=' + value).then(function (response) {
+                mainData.mailData = response.data;
+                $('.mail').show();
+            });
+        },
+        closeMail: function () {
+            this.mailData = ''
+            $('.mail').hide();
+        }
+
+    }
+});
+
+
+//CUSTOM JQUERY
+$(document).ready(function () {
+
+    $(".mail-table").on({
+        mouseenter: function () {
+            $(this).children('td').css({'font-weight': 'bold'})
+        },
+        mouseleave: function () {
+            $(this).children('td').css({'font-weight': 'normal'})
+        }
+    });
+});

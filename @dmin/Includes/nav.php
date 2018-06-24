@@ -52,17 +52,14 @@
                             <li><a href="/@dmin/Video"><i class="fa fa-video-camera"></i> Video</a></li>
                         </ul>
                     </li>
-<!--                    <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span-->
-<!--                                    class="fa fa-chevron-down"></span></a>-->
-<!--                        <ul class="nav child_menu">-->
-<!--                            <li><a href="chartjs.html">Chart JS</a></li>-->
-<!--                            <li><a href="chartjs2.html">Chart JS2</a></li>-->
-<!--                            <li><a href="morisjs.html">Moris JS</a></li>-->
-<!--                            <li><a href="echarts.html">ECharts</a></li>-->
-<!--                            <li><a href="other_charts.html">Other Charts</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
 
+                    <li><a><i class="fa fa-envelope-o"></i> Mail  <span
+                                    class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="/@dmin/Mail"><i class="fa fa-envelope"></i> All Mail</a></li>
+                            <li><a href="/@dmin/NewMail"> <i class="fa fa-eye"></i> New mail</a></li>
+                          </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -79,6 +76,9 @@
             </div>
 
             <ul class="nav navbar-nav navbar-right">
+
+
+
                 <li class="">
                     <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
                        aria-expanded="false">
@@ -96,6 +96,72 @@
                         <li><a href="action/logout.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                     </ul>
                 </li>
+                <li role="presentation" class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="fa fa-envelope-o"></i>
+                        <span class="badge bg-green">6</span>
+                    </a>
+                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                        <li>
+                            <a>
+                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
+                                <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="text-center">
+                                <a>
+                                    <strong>See All Alerts</strong>
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
         </nav>
     </div>
