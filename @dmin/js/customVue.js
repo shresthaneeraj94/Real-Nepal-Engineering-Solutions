@@ -436,23 +436,43 @@ var mail = new Vue({
             });
         },
         closeMail: function () {
-            this.mailData = ''
+            this.mailData = '',
             $('.mail').hide();
+            location.reload(true);
         }
-
     }
 });
 
+//navigation mail vue js
+var navMail = new Vue({
+    el: '#navMail',
+    data: {
+        notification: '',
+        count: ''
+    },
+    methods: {
+        getNotification: function () {
+            var mainData = this;
+            axios.get('api/getNotification.php').then(function (value) {
+                mainData.notification = value.data;
+                mainData.count = value.data.length;
+            });
+        }
+    },
+    created: function () {
+        this.getNotification();
+    }
+});
 
 //CUSTOM JQUERY
 $(document).ready(function () {
 
     $(".mail-table").on({
         mouseenter: function () {
-            $(this).children('td').css({'font-weight': 'bold'})
+            $(this).children('td').css({'font-size': '1.15em'})
         },
         mouseleave: function () {
-            $(this).children('td').css({'font-weight': 'normal'})
+            $(this).children('td').css({'font-size': '1em'})
         }
     });
 });

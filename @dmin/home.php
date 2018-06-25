@@ -66,8 +66,14 @@ include_once "Includes/nav.php";
                                 </div>
                                 <div class="col-md-4">
                                     <a href="/@dmin/Gallery">
-                                        <i class="fa fa-camera fa-5x"></i>
+                                        <i class="fa fa-camera-retro fa-5x"></i>
                                     <h3>Gallery</h3>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="/@dmin/Navigation">
+                                        <i class="fa fa-envelope-o fa-5x"></i>
+                                        <h3>Mail</h3>
                                     </a>
                                 </div>
                             </div>

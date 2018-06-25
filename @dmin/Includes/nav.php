@@ -25,12 +25,14 @@
             <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                    <li><a href="/@dmin"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                        <ul class="nav child_menu">
-                            <li><a href="index.html">Dashboard</a></li>
-                            <li><a href="index2.html">Dashboard2</a></li>
-                            <li><a href="index3.html">Dashboard3</a></li>
-                        </ul>
+                    <li><a href="/@dmin"><i class="fa fa-home"></i> Home
+                            <!--                            <span class="fa fa-chevron-down"></span>-->
+                        </a>
+                        <!--                        <ul class="nav child_menu">-->
+                        <!--                            <li><a href="index.html">Dashboard</a></li>-->
+                        <!--                            <li><a href="index2.html">Dashboard2</a></li>-->
+                        <!--                            <li><a href="index3.html">Dashboard3</a></li>-->
+                        <!--                        </ul>-->
                     </li>
                     <li><a><i class="fa fa-credit-card"></i>Navigation<span
                                     class="fa fa-chevron-down"></span></a>
@@ -53,12 +55,12 @@
                         </ul>
                     </li>
 
-                    <li><a><i class="fa fa-envelope-o"></i> Mail  <span
+                    <li><a><i class="fa fa-envelope-o"></i> Mail <span
                                     class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="/@dmin/Mail"><i class="fa fa-envelope"></i> All Mail</a></li>
                             <li><a href="/@dmin/NewMail"> <i class="fa fa-eye"></i> New mail</a></li>
-                          </ul>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -78,7 +80,6 @@
             <ul class="nav navbar-nav navbar-right">
 
 
-
                 <li class="">
                     <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
                        aria-expanded="false">
@@ -96,72 +97,37 @@
                         <li><a href="action/logout.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                     </ul>
                 </li>
-                <li role="presentation" class="dropdown">
-                    <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown"
-                       aria-expanded="false">
-                        <i class="fa fa-envelope-o"></i>
-                        <span class="badge bg-green">6</span>
-                    </a>
-                    <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                        <li>
-                            <a>
-                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                                <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                                <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                                <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                                <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                                <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="text-center">
-                                <a>
-                                    <strong>See All Alerts</strong>
-                                    <i class="fa fa-angle-right"></i>
+                <div id="navMail">
+                    <li role="presentation" class="dropdown">
+                        <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown"
+                           aria-expanded="false">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-green">{{count}}</span>
+                        </a>
+                        <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                            <li v-for="notes in notification.slice(0,3)" >
+                                <a href="/@dmin/newMail">
+                                    <span>
+                                        <b>{{notes.name}}</b>
+                                        <span class="time">{{notes.created_at}}</span>
+                                    </span>
+                                    <br>
+                                    <i class="message">
+                                        {{notes.subject}}
+                                    </i>
                                 </a>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a href="/@dmin/Mail">
+                                        <strong>See All Mails</strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
             </ul>
         </nav>
     </div>

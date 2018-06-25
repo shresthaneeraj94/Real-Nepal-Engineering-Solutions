@@ -48,7 +48,7 @@ include_once "Includes/nav.php";
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Mail List</h2>
+                                <h2><i class="fa fa-eye"> </i> Unchecked Mail List</h2>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
@@ -64,7 +64,8 @@ include_once "Includes/nav.php";
                                         echo '<tr><td colspan="4"> No new mail ! go to <a href="/@dmin/Mail"><b>all mails</b></a></td></tr>';
                                     } else {
                                         foreach ($list as $key => $data) { ?>
-                                            <tr v-on:click="mailDetail(<?= $data['id'] ?>)" class="mail-table">
+                                            <tr v-on:click="mailDetail(<?= $data['id'] ?>)"
+                                                class="mail-table mail-<?= $data['status'] ?>">
                                                 <td><?= ++$key ?></td>
                                                 <td><?= $data['subject'] ?></td>
                                                 <td><?= $data['name'] ?></td>

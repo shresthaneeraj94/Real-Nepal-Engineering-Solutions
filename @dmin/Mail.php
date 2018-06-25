@@ -55,12 +55,13 @@ include_once "Includes/nav.php";
                                 <table class="table table-striped">
                                     <tr>
                                         <th>S/n</th>
-                                        <th width="50%">subject</th>
-                                        <th width="20%">sender</th>
-                                        <th width="20%">sender(email)</th>
+                                        <th width="45%">subject</th>
+                                        <th width="25%">sender</th>
+                                        <th width="25%">sender(email)</th>
                                     </tr>
                                     <?php foreach ($list as $key => $data) { ?>
-                                        <tr v-on:click="mailDetail(<?= $data['id'] ?>)" class="mail-table">
+                                        <tr v-on:click="mailDetail(<?= $data['id'] ?>)"
+                                            class="mail-table mail-<?= $data['status']?>">
                                             <td><?= ++$key ?></td>
                                             <td><?= $data['subject'] ?></td>
                                             <td><?= $data['name'] ?></td>
