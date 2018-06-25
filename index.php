@@ -1,5 +1,5 @@
 <?php
-$title="Real Nepal Engineering Solution";
+$title = "Real Nepal Engineering Solution";
 require_once "includes/header.php" ?>
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
     <!-- Indicators -->
@@ -9,9 +9,9 @@ require_once "includes/header.php" ?>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center center/cover">
         <div class="item active">
-            <img src="img/slide1.jpg" alt="slide1">
+            <img src="img/slide1.jpg" alt="slide1" style="opacity: 0;">
             <!--Slide Image-->
 
             <div class="container">
@@ -20,7 +20,8 @@ require_once "includes/header.php" ?>
                     <div class="phone animated lightSpeedIn">+977-01-4478746</div>
                     <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
 
-                    <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done here.</p>
+                    <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done
+                        here.</p>
 
                     <a class="btn btn-primary animated lightSpeedIn" href="#">Work With Us Today</a>
                 </div>
@@ -31,7 +32,7 @@ require_once "includes/header.php" ?>
         <!--.item-->
 
         <div class="item">
-            <img src="img/slide1.jpg" alt="slide2">
+            <img src="img/slide1.jpg" alt="slide2" style="opacity: 0;">
             <!--Slide Image-->
 
             <div class="container">
@@ -72,13 +73,20 @@ require_once "includes/header.php" ?>
             <div class="row">
                 <div class="col-lg-6 col-md-8">
                     <h2 class="wow fadeInDown">Welcome to Real Nepal Engineering Solutions</h2>
-                    <p class="wow fadeInDown">Objectively enable leading-edge infrastructures whereas tactical imperatives. Enthusiastically disintermediate adaptive systems.</p>
+                    <p class="wow fadeInDown">Objectively enable leading-edge infrastructures whereas tactical
+                        imperatives. Enthusiastically disintermediate adaptive systems.</p>
 
                     <h3 class="wow fadeInDown">About Us</h3>
-                    <p class="wow fadeInDown">Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services. Credibly initiate performance based internal or "organic" sources with <a href="#">performance based</a> infrastructures competently.</p>
+                    <p class="wow fadeInDown">Assertively target turnkey technologies whereas covalent ROI.
+                        Distinctively grow viral mindshare rather than collaborative meta-services. Credibly initiate
+                        performance based internal or "organic" sources with <a href="#">performance based</a>
+                        infrastructures competently.</p>
 
                     <h3 class="wow fadeInDown">Our Mission</h3>
-                    <p class="wow fadeInDown">Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services. Credibly initiate performance based internal or "organic" sources with performance based infrastructures. Competently.</p>
+                    <p class="wow fadeInDown">Assertively target turnkey technologies whereas covalent ROI.
+                        Distinctively grow viral mindshare rather than collaborative meta-services. Credibly initiate
+                        performance based internal or "organic" sources with performance based infrastructures.
+                        Competently.</p>
 
                     <a class="btn btn-primary wow fadeInDown" href="#" role="button">Read More</a>
                 </div>
@@ -98,7 +106,8 @@ require_once "includes/header.php" ?>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><a href="#">Global business</a></h3>
-                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services redibly initiate.</p>
+                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral
+                                mindshare rather than collaborative meta-services redibly initiate.</p>
                         </div> <!-- /.media-body -->
                     </div> <!-- /.media -->
                 </div> <!-- /.col-md-6 -->
@@ -110,7 +119,8 @@ require_once "includes/header.php" ?>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><a href="#">Fast online support</a></h3>
-                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services redibly initiate.</p>
+                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral
+                                mindshare rather than collaborative meta-services redibly initiate.</p>
                         </div> <!-- /.media-body -->
                     </div> <!-- /.media -->
                 </div> <!-- /.col-md-6 -->
@@ -122,7 +132,8 @@ require_once "includes/header.php" ?>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><a href="#">Pro Services &amp; Advice</a></h3>
-                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services redibly initiate.</p>
+                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral
+                                mindshare rather than collaborative meta-services redibly initiate.</p>
                         </div> <!-- /.media-body -->
                     </div> <!-- /.media -->
                 </div> <!-- /.col-md-6 -->
@@ -134,7 +145,8 @@ require_once "includes/header.php" ?>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><a href="#">Fresh business ideas</a></h3>
-                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral mindshare rather than collaborative meta-services redibly initiate.</p>
+                            <p>Assertively target turnkey technologies whereas covalent ROI. Distinctively grow viral
+                                mindshare rather than collaborative meta-services redibly initiate.</p>
                         </div> <!-- /.media-body -->
                     </div> <!-- /.media -->
                 </div> <!-- /.col-md-6 -->
@@ -146,9 +158,11 @@ require_once "includes/header.php" ?>
             <div class="css-tab text-center">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#experiance" aria-controls="experiance" role="tab" data-toggle="tab">Experiance</a></li>
+                    <li class="active"><a href="#experiance" aria-controls="experiance" role="tab" data-toggle="tab">Experiance</a>
+                    </li>
                     <li><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
-                    <li><a href="#capabilities" aria-controls="capabilities" role="tab" data-toggle="tab">Capabilities</a></li>
+                    <li><a href="#capabilities" aria-controls="capabilities" role="tab"
+                           data-toggle="tab">Capabilities</a></li>
                 </ul>
 
                 <!-- Tab panes -->
@@ -157,12 +171,24 @@ require_once "includes/header.php" ?>
                         <div class="row">
                             <div class="col-sm-6 text-left experiance-tab-content wow fadeInLeft">
                                 <h3>20 Years of Experience</h3>
-                                <p>Seamlessly strategize empowered action items via adaptive web services. Competently leverage existing just in time mindshare and equity invested information. Holisticly expedite progressive e-markets with cross-platform deliverables. Dramatically orchestrate ethical intellectual capital rather than principle-centered functionalities. Distinctively innovate go forward paradigms with empowered internal or "organic" sources. Distinctively reinvent exceptional intellectual capital whereas client-centric web-readiness.</p>
+                                <p>Seamlessly strategize empowered action items via adaptive web services. Competently
+                                    leverage existing just in time mindshare and equity invested information. Holisticly
+                                    expedite progressive e-markets with cross-platform deliverables. Dramatically
+                                    orchestrate ethical intellectual capital rather than principle-centered
+                                    functionalities. Distinctively innovate go forward paradigms with empowered internal
+                                    or "organic" sources. Distinctively reinvent exceptional intellectual capital
+                                    whereas client-centric web-readiness.</p>
                             </div><!--/.col-sm-6 -->
 
                             <div class="col-sm-6 text-left experiance-tab-content wow fadeInRight">
                                 <h3>More than 50 Successful Projects</h3>
-                                <p>Seamlessly strategize empowered action items via adaptive web services. Competently leverage existing just in time mindshare and equity invested information. Holisticly expedite progressive e-markets with cross-platform deliverables. Dramatically orchestrate ethical intellectual capital rather than principle-centered functionalities. Distinctively innovate go forward paradigms with empowered internal or "organic" sources. Distinctively reinvent exceptional intellectual capital whereas client-centric web-readiness.</p>
+                                <p>Seamlessly strategize empowered action items via adaptive web services. Competently
+                                    leverage existing just in time mindshare and equity invested information. Holisticly
+                                    expedite progressive e-markets with cross-platform deliverables. Dramatically
+                                    orchestrate ethical intellectual capital rather than principle-centered
+                                    functionalities. Distinctively innovate go forward paradigms with empowered internal
+                                    or "organic" sources. Distinctively reinvent exceptional intellectual capital
+                                    whereas client-centric web-readiness.</p>
                             </div><!--/.col-sm-6 -->
                         </div><!-- /.row -->
                     </div>
@@ -223,7 +249,9 @@ require_once "includes/header.php" ?>
 
                                     <div class="media-body text-left">
                                         <h3 class="media-heading">Building your business growth &amp; prosperity</h3>
-                                        <p>Holisticly mesh granular bandwidth without seamless manufactured products. Monotonectally productize team building e-commerce before global bandwidth. Uniquely mesh resource sucking content and robust portals.</p>
+                                        <p>Holisticly mesh granular bandwidth without seamless manufactured products.
+                                            Monotonectally productize team building e-commerce before global bandwidth.
+                                            Uniquely mesh resource sucking content and robust portals.</p>
                                     </div><!-- /.media-body -->
                                 </div><!-- /.media -->
                             </div><!-- /.col-md-6 -->
@@ -236,7 +264,9 @@ require_once "includes/header.php" ?>
 
                                     <div class="media-body text-left">
                                         <h3 class="media-heading">Building your business growth &amp; prosperity</h3>
-                                        <p>Holisticly mesh granular bandwidth without seamless manufactured products. Monotonectally productize team building e-commerce before global bandwidth. Uniquely mesh resource sucking content and robust portals.</p>
+                                        <p>Holisticly mesh granular bandwidth without seamless manufactured products.
+                                            Monotonectally productize team building e-commerce before global bandwidth.
+                                            Uniquely mesh resource sucking content and robust portals.</p>
                                     </div><!-- /.media-body -->
                                 </div><!-- /.media -->
                             </div><!-- /.col-md-6 -->
@@ -269,7 +299,8 @@ require_once "includes/header.php" ?>
                             <div class="col-md-6 col-md-pull-6 wow fadeInLeft">
                                 <div class="handover-project">
                                     <h3>Proactively productivate e-business e-commerce</h3>
-                                    <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                                    <p>Efficiently communicate installed base leadership skills with extensible testing
+                                        procedures. Enthusiastically evolve leading-edge scenarios.</p>
 
                                     <ul class="check-square">
                                         <li>Globally exploit interoperable infrastructures</li>
@@ -296,7 +327,8 @@ require_once "includes/header.php" ?>
                             <div class="col-md-6 col-md-pull-6">
                                 <div class="handover-project">
                                     <h3>Proactively productivate e-business e-commerce</h3>
-                                    <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                                    <p>Efficiently communicate installed base leadership skills with extensible testing
+                                        procedures. Enthusiastically evolve leading-edge scenarios.</p>
 
                                     <ul class="check-square">
                                         <li>Globally exploit interoperable infrastructures</li>
@@ -323,7 +355,8 @@ require_once "includes/header.php" ?>
                             <div class="col-md-6 col-md-pull-6">
                                 <div class="handover-project">
                                     <h3>Proactively productivate e-business e-commerce</h3>
-                                    <p>Efficiently communicate installed base leadership skills with extensible testing procedures. Enthusiastically evolve leading-edge scenarios.</p>
+                                    <p>Efficiently communicate installed base leadership skills with extensible testing
+                                        procedures. Enthusiastically evolve leading-edge scenarios.</p>
 
                                     <ul class="check-square">
                                         <li>Globally exploit interoperable infrastructures</li>
@@ -360,8 +393,11 @@ require_once "includes/header.php" ?>
                         <div class="row">
                             <div class="col-md-8 col-sm-7 wow fadeInLeft">
                                 <div class="client-testimonial">
-                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust materials. Conveniently coordinate error-free ideas and.sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                    <span class="client-name">John Doe</span>, <span class="client-org">Themehippo</span>
+                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust
+                                        materials. Conveniently coordinate error-free ideas and.sed quia consequuntur
+                                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <span class="client-name">John Doe</span>, <span
+                                            class="client-org">Themehippo</span>
                                 </div>
                             </div><!-- /.col-md-8 -->
                             <div class="col-md-4 col-sm-5 wow fadeInRight">
@@ -375,8 +411,11 @@ require_once "includes/header.php" ?>
                         <div class="row">
                             <div class="col-md-8 col-sm-7">
                                 <div class="client-testimonial">
-                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust materials. Conveniently coordinate error-free ideas and.sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                    <span class="client-name">John Doe</span>, <span class="client-org">Themehippo</span>
+                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust
+                                        materials. Conveniently coordinate error-free ideas and.sed quia consequuntur
+                                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <span class="client-name">John Doe</span>, <span
+                                            class="client-org">Themehippo</span>
                                 </div>
                             </div><!-- /.col-md-8 -->
                             <div class="col-md-4 col-sm-5">
@@ -390,8 +429,11 @@ require_once "includes/header.php" ?>
                         <div class="row">
                             <div class="col-md-8 col-sm-7">
                                 <div class="client-testimonial">
-                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust materials. Conveniently coordinate error-free ideas and.sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                    <span class="client-name">John Doe</span>, <span class="client-org">Themehippo</span>
+                                    <p>Enthusiastically envisioneer state of the art quality vectors without robust
+                                        materials. Conveniently coordinate error-free ideas and.sed quia consequuntur
+                                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <span class="client-name">John Doe</span>, <span
+                                            class="client-org">Themehippo</span>
                                 </div>
                             </div><!-- /.col-md-8 -->
                             <div class="col-md-4 col-sm-5">
@@ -423,14 +465,18 @@ require_once "includes/header.php" ?>
 
         <section class="subscription-wrapper text-center">
             <h2 class="wow fadeInDown">Take into our subscription plans</h2>
-            <h3 class="pricing-sub wow fadeInDown">Choose the one which fits your organization (don't worry, you will be able to upgrade <br> or downgrade or cancel it anytime)</h3>
+            <h3 class="pricing-sub wow fadeInDown">Choose the one which fits your organization (don't worry, you will be
+                able to upgrade <br> or downgrade or cancel it anytime)</h3>
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-lg-offset-2 text-left wow fadeInLeft">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h2>Basic <small>Dynamically morph focused</small></h2>
-                            <p>Objectively empowers <br> Clicks and morter schemas <br> whereas plug and play testing</p>
+                            <h2>Basic
+                                <small>Dynamically morph focused</small>
+                            </h2>
+                            <p>Objectively empowers <br> Clicks and morter schemas <br> whereas plug and play testing
+                            </p>
                         </div><!-- /.panel-heading -->
 
                         <div class="panel-body">
@@ -452,8 +498,11 @@ require_once "includes/header.php" ?>
                 <div class="col-lg-4 col-md-6 col-sm-6 text-left wow fadeInRight">
                     <div class="panel panel-default featured-price">
                         <div class="panel-heading">
-                            <h2>Enterprise <small>Dynamically morph focused</small></h2>
-                            <p>Objectively empowers <br> Clicks and morter schemas <br> whereas plug and play testing</p>
+                            <h2>Enterprise
+                                <small>Dynamically morph focused</small>
+                            </h2>
+                            <p>Objectively empowers <br> Clicks and morter schemas <br> whereas plug and play testing
+                            </p>
                         </div><!-- /.panel-heading -->
 
                         <div class="panel-body">
@@ -479,7 +528,9 @@ require_once "includes/header.php" ?>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-1">
                     <h2 class="wow fadeInDown">We have 24/7 dedicated support team</h2>
-                    <p class="wow fadeInDown">Proactively negotiate interdependent quality vectors for cross functional collaboration and idea-sharing. Dynamically myocardinate business quality vectors for web-enabled leadership. Synergistically simplify world-class alignments whereas extensible.</p>
+                    <p class="wow fadeInDown">Proactively negotiate interdependent quality vectors for cross functional
+                        collaboration and idea-sharing. Dynamically myocardinate business quality vectors for
+                        web-enabled leadership. Synergistically simplify world-class alignments whereas extensible.</p>
 
                     <a class="btn btn-primary btn-lg wow fadeInDown" href="#">Get Instant Support</a>
                 </div>

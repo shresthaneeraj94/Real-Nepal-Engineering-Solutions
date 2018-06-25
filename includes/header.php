@@ -70,7 +70,7 @@ $designing = $query_3->fetchAll();
 
 
 <body>
-<div id="st-container" class="st-container">
+<div id="st-container" class="st-container" style="background: grey">
     <div class="st-pusher">
         <div class="st-content">
             <div class="st-content-inner">
