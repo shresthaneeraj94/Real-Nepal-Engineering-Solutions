@@ -9,7 +9,7 @@ if (empty($_POST)) {
 }
 
 $title = $_POST['title'];
-$quote = (isset($_POST['quote'])) ? $_POST['quote'] : $_POST['title'];
+$quote = (empty($_POST['quote'])) ? $_POST['title'] : $_POST['quote'];
 $category = $_POST['category'];
 $detail = isset($_POST['detail']) ? $_POST['detail'] : '';
 $tab_stat = $_POST['tab_stat'];
