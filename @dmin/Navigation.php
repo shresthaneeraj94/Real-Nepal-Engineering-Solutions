@@ -48,6 +48,7 @@ include_once "Includes/nav.php";
                                     <tr>
                                         <th>S/n</th>
                                         <th>Title</th>
+                                        <th>Quote</th>
                                         <th>featuerd image</th>
                                         <th>description</th>
                                         <th>category</th>
@@ -58,6 +59,7 @@ include_once "Includes/nav.php";
                                     <tr v-for="(nav,index) in navList">
                                         <td> {{ ++index }}</td>
                                         <td> {{ nav.title |strlimit}}</td>
+                                        <td> {{ nav.quote |strlimit}}</td>
                                         <td>
                                             <img :src="'/img/Navigation/'+nav.image" alt="image" style="height:50px;">
                                         </td>
@@ -84,6 +86,7 @@ include_once "Includes/nav.php";
                                     <div class="col-md-6">
                                         <label> <i class="fa fa-book"></i> Title : </label>
                                         <input type="text" v-model="editList.title" class="form-control" required>
+
                                         <br> <label> <i class="fa fa-briefcase"></i> Category : </label>
                                         <select v-model="editList.category" class="form-control">
                                             <option value="product">Product</option>
@@ -106,6 +109,9 @@ include_once "Includes/nav.php";
                                                v-on:change="handleFileUpload()"/>
                                         <br>
                                     </div>
+                                    <br>
+                                    <label> <i class="fa fa-tag"></i> Quote : </label>
+                                    <input type="text" v-model="editList.quote" class="form-control">
                                     <br>
                                     <label> <i class="fa fa-info"></i> Description : </label>
                                     <textarea v-model="editList.detail" style="resize: none; height: 140px"

@@ -25,8 +25,8 @@ $output = $query->fetchAll();
                         <h1>Single Portfolio</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li class="active">Portfolio</li>
+                        <li><a href="/">Home</a></li>
+                        <li class="active"><?=$category?></li>
                     </ol>
                 </div>
             </div><!-- /.row -->

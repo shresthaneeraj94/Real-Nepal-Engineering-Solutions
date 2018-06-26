@@ -3,6 +3,7 @@ require_once '../action/DBConnect.php';
 if (!empty($_POST)) {
     $id = $_POST['id'];
     $title = $_POST['title'];
+    $quote = $_POST['quote'];
     $detail = $_POST['detail'];
     $category = $_POST['category'];
     $tab_stat = $_POST['tab_stat'];
@@ -21,17 +22,17 @@ if (!empty($_POST)) {
             $image = $photo;
         }
 
-        $sql = "UPDATE navigation SET title=?,detail=?,category=?,image=?,tab_stat=?,created_at=? WHERE id=?";
+        $sql = "UPDATE navigation SET title=?,detail=?,quote=?,category=?,image=?,tab_stat=?,created_at=? WHERE id=?";
         $query = $conn->prepare($sql);
-        if ($query->execute([$title, $detail, $category, $image, $tab_stat, $created_at, $id])) {
+        if ($query->execute([$title, $detail, $quote, $category, $image, $tab_stat, $created_at, $id])) {
             echo true;
         } else {
             echo false;
         }
     } else {
-        $sql = "UPDATE navigation SET title=?,detail=?,category=?,tab_stat=?,created_at=? WHERE id=?";
+        $sql = "UPDATE navigation SET title=?,detail=?,quote=?,category=?,tab_stat=?,created_at=? WHERE id=?";
         $query = $conn->prepare($sql);
-        if ($query->execute([$title, $detail, $category, $tab_stat, $created_at, $id])) {
+        if ($query->execute([$title, $detail, $quote, $category, $tab_stat, $created_at, $id])) {
             echo true;
         } else {
             echo false;

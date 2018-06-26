@@ -141,6 +141,7 @@ $designing = $query_3->fetchAll();
                                             </div><!-- /.submenu-inner -->
                                         </div> <!-- /.submenu-wrapper -->
                                     </li>
+                                    <li><a href="gallery">Gallery</a></li>
                                     <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->

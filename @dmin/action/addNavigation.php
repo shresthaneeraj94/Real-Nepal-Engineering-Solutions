@@ -9,6 +9,7 @@ if (empty($_POST)) {
 }
 
 $title = $_POST['title'];
+$quote = (isset($_POST['quote'])) ? $_POST['quote'] : $_POST['title'];
 $category = $_POST['category'];
 $detail = isset($_POST['detail']) ? $_POST['detail'] : '';
 $tab_stat = $_POST['tab_stat'];
@@ -24,9 +25,9 @@ if (!empty($_FILES)) {
     }
 }
 
-$sql = "INSERT INTO navigation( title, detail, image, category, tab_stat, created_at) VALUES( ?, ?, ?, ?, ?, ?)";
+$sql = "INSERT INTO navigation( title, detail,quote, image, category, tab_stat, created_at) VALUES( ?, ?, ?, ?, ?, ?, ?)";
 $query = $conn->prepare($sql);
-if ($query->execute(array($title, $detail, $image, $category, $tab_stat, $time))) {
+if ($query->execute(array($title, $detail, $quote, $image, $category, $tab_stat, $time))) {
     $_SESSION['nav_msg'] = 'Navigation item submitted successfullly ! ';
 
 } else {

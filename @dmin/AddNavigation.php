@@ -69,6 +69,9 @@ include_once "Includes/nav.php";
                                             <input type="file" name="image" class="form-control">
                                         </div>
                                     </div>
+                                    <label> <i class="fa fa-tag"></i> Quote : </label>
+                                    <input type="text" name="quote" class="form-control">
+                                    <br>
                                     <label> <i class="fa fa-info"></i> Description : </label>
                                     <textarea name="detail" style="resize: none; height: 140px"
                                               class="form-control"></textarea>

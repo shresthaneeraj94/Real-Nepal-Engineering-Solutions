@@ -40,6 +40,7 @@ var navigation = new Vue({
             var formData = new FormData();
             formData.append('id', this.editList.id);
             formData.append('title', this.editList.title);
+            formData.append('quote', this.editList.quote);
             formData.append('detail', this.editList.detail);
             formData.append('category', this.editList.category);
             formData.append('tab_stat', this.editList.tab_stat);
@@ -87,7 +88,11 @@ var navigation = new Vue({
     },
     filters: {
         strlimit: function (text) {
-            return text.slice(0, 50) + (50 < text.length ? '...' : '')
+            if (text == null) {
+                return text;
+            } else {
+                return text.slice(0, 50) + (50 < text.length ? '...' : '')
+            }
         }
 
     }
