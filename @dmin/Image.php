@@ -88,6 +88,13 @@ include_once "Includes/nav.php";
                                 </div>
                             </div>
                             <!--content here-->
+                            <div class="alignright" v-if="pages > 0">
+                                Pages |
+                                <div v-for="int in number" v-if="int <= pages" style="display: inline">
+                                    <a v-bind:href="'?pages='+ int" class="btn btn-default btn-sm"><b>{{int}}</b></a>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>

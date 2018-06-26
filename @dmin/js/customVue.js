@@ -232,6 +232,8 @@ var image = new Vue({
     el: '#image',
     data: {
         imageList: '',
+        pages: '',
+        number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
         caption: '',
         editId: '',
         gallerySearchList: '',
@@ -240,10 +242,14 @@ var image = new Vue({
     methods: {
         getImage: function () {
             var mainData = this;
-            axios.get('api/getImage.php')
+            var uri = window.location.href.split('?');
+            // console.log(uri[1]);
+
+            axios.get('api/getImage.php?' + uri[1])
                 .then(function (response) {
-                    mainData.imageList = response.data;
-                    // console.log(mainData.navList);
+                    mainData.imageList = response.data[0];
+                    mainData.pages = response.data[1];
+                    // console.log(response.data);
                 }).catch(function (error) {
                 // Error handling
             });
@@ -254,7 +260,7 @@ var image = new Vue({
             if (confirm('Are you sure you want to delete this image ?')) {
                 axios.get('api/deleteImage.php?id=' + value)
                     .then(function (response) {
-                        mainData.getImage();
+                        window.location.reload();
                         alert('Image data deleted !');
                     }).catch(function (error) {
                     // Error handling
@@ -273,8 +279,8 @@ var image = new Vue({
 
             axios.post('api/updateImage.php', formData)
                 .then(function (response) {
-                    console.log(response);
-                    mainData.getImage();
+                    // mainData.getImage();
+                    window.location.reload();
                 }).catch(function (error) {
                 // Error handling
             });
@@ -303,6 +309,7 @@ var image = new Vue({
                 axios.get('api/getByGallery.php?type=image&gallery=' + mainData.searchImage)
                     .then(function (response) {
                         mainData.imageList = response.data;
+                        mainData.pages = '0';
                         // console.log(mainData.navList);
                     }).catch(function (error) {
                     // Error handling
@@ -328,6 +335,8 @@ var video = new Vue({
     el: '#video',
     data: {
         videoList: '',
+        pages: '',
+        number: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
         caption: '',
         editId: '',
         gallerySearchList: '',
@@ -336,9 +345,12 @@ var video = new Vue({
     methods: {
         getVideo: function () {
             var mainData = this;
-            axios.get('api/getVideo.php')
+            var uri = window.location.href.split('?');
+
+            axios.get('api/getVideo.php?' + uri[1])
                 .then(function (response) {
-                    mainData.videoList = response.data;
+                    mainData.videoList = response.data[0];
+                    mainData.pages = response.data[1];
                     // console.log(mainData.navList);
                 }).catch(function (error) {
                 // Error handling
@@ -370,7 +382,8 @@ var video = new Vue({
             axios.post('api/updateVideo.php', formData)
                 .then(function (response) {
                     console.log(response);
-                    mainData.getVideo();
+                    // mainData.getVideo();
+                    window.location.reload();
                 }).catch(function (error) {
                 // Error handling
             });
@@ -399,6 +412,7 @@ var video = new Vue({
                 axios.get('api/getByGallery.php?type=video&gallery=' + mainData.searchVideo)
                     .then(function (response) {
                         mainData.videoList = response.data;
+                        mainData.pages = '0';
                         // console.log(mainData.navList);
                     }).catch(function (error) {
                     // Error handling
@@ -437,7 +451,7 @@ var mail = new Vue({
         },
         closeMail: function () {
             this.mailData = '',
-            $('.mail').hide();
+                $('.mail').hide();
             location.reload(true);
         }
     }
