@@ -3,19 +3,8 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="footer-widget">
-                    <p class="subcsribe-text wow fadeInDown">Quickly utilize installed base channels before premier
-                        expertise. Conveniently extend web-enabled niche markets without 2.0 e-markets. Collaboratively
-                        incentivize .</p>
+                    <p class="subcsribe-text wow fadeInDown"></p>
 
-                    <h3 class="wow fadeInDown">Subscribe to newsletter</h3>
-
-                    <form class="wow fadeInDown">
-                        <div class="form-group">
-                            <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
 
                     <div class="social-link wow fadeInDown">
                         <ul>
