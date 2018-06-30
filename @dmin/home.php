@@ -71,7 +71,7 @@ include_once "Includes/nav.php";
                                     </a>
                                 </div>
                                 <div class="col-md-4">
-                                    <a href="/@dmin/Navigation">
+                                    <a href="/@dmin/Mail">
                                         <i class="fa fa-envelope-o fa-5x"></i>
                                         <h3>Mail</h3>
                                     </a>

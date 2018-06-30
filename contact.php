@@ -1,5 +1,6 @@
 <?php
 $title = "Contact Us";
+session_start();
 include_once "includes/header.php"
 ?>
 
@@ -27,7 +28,8 @@ include_once "includes/header.php"
                     <div class="col-md-4">
                         <div class="mini-contact">
                             <h2>Email us</h2>
-                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering Solutions", you can
+                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering
+                                Solutions", you can
                                 always email us directly or via the form below</p>
 
                             <a href="mailto:#">dummyemail@gmail.com</a>
@@ -36,7 +38,8 @@ include_once "includes/header.php"
                     <div class="col-md-4">
                         <div class="mini-contact">
                             <h2>Call us</h2>
-                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering Solutions", you can
+                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering
+                                Solutions", you can
                                 always email us directly or via the form below</p>
 
                             <a href="#">call +977-01-4478746</a>
@@ -53,14 +56,7 @@ include_once "includes/header.php"
                     </div>
                 </div><!-- /.row -->
 
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="map-wrapper">
-                            <div id="mapCanvas" class="map-canvas"></div>
-                        </div>
-                    </div>
-                </div><!-- /.row -->
+                <h1><i class="fa fa-map-marker"></i> MAP HERE</h1><br>
 
 
                 <div class="directions-wrapper">
@@ -69,45 +65,19 @@ include_once "includes/header.php"
                         <p>Dramatically re-enginner high standards in human capital vis-a-vis cross
                             functional networks credibly.</p>
                     </div>
-
-                    <div class="contact-directions">
-                        <h2>Hours of operations</h2>
-                        <p>Five days a week, 9:00 AM to 6:00 PM</p>
-                    </div>
-
-                    <div class="contact-directions">
-                        <h2>By Helicopter</h2>
-                        <p>Seamlessly architect timely 'outside the box thinking for sticky outsourcing
-                            continually extend businees solutions.</p>
-                    </div>
-
-                    <div class="contact-directions">
-                        <h2>By Car</h2>
-                        <p>If you are driving north on Sixth Avenue, turn right 44th street, right on Fifth
-                            Avenue, and right on 43rd Street. The PRIMEX is on the right. If you are driving
-                            south on Fifth Avenue, turn right 43rd Street. The primex is on the right.</p>
-                    </div>
-
-                    <div class="contact-directions">
-                        <h2>Parking</h2>
-                        <p>Special discount rates are available at the ABC parking garage located across the
-                            street from the Primex at the Grace Building (enter at 38 west 43rd street
-                            between 5th and 7th Avenues</p>
-                    </div>
-
-                    <div class="contact-directions">
-                        <h2>By Bus</h2>
-                        <p>The A2, A3, A4 and A104 all stop near the University for bus and subway maps and
-                            schedules. Visit the AMt's web site.</p>
-                    </div>
                 </div><!-- /.directions-wrapper -->
 
                 <div class="contact-us-form">
 
                     <h2>Drop us a line</h2>
+                    <?php
+                    if (isset($_SESSION['mail_contact'])) {
+                        echo "<div class='alert alert-success'><b> " . $_SESSION['mail_contact'] . "</b></div>";
+                        unset($_SESSION['mail_contact']);
+                    } ?>
 
 
-                    <form id="contactForm" action="sendemail.php" method="POST">
+                    <form action="/includes/mailAction.php" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-group">

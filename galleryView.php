@@ -23,12 +23,12 @@ include_once 'includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h1>Portfolio</h1>
+                        <h1>Gallery Detail</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li class="active">Portfolio Four Column</li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                        <li class="active"><?= substr($output['title'], 0, 50) ?></li>
                     </ol>
                 </div>
             </div><!-- /.row -->
@@ -36,16 +36,22 @@ include_once 'includes/header.php';
     </section>
 
     <div class="container">
-        <div class="content-wrapper">
-            <?php
-            echo "<pre>            <h3>GALLERY DETAIL </h3>";
-            print_r($output);
-            echo "</pre>";
-            ?>
+    <div class="content-wrapper">
+        <div class="row" style="padding: 30px;">
+            <div class="col-sm-4 text-right">
+                <img style="height: 120px;width: 180px" src="/img/Gallery/featured/<?= $output['image'] ?>"
+                     alt="image">
+            </div>
+            <div class="col-sm-8">
+                <b><?= $output['title'] ?></b>
+                <p><?= $output['detail'] ?></p>
+            </div>
+        </div>
             <div class="inner-content">
                 <div class="row four-column">
                     <div id="grid">
                         <?php
+
                         $sql_1 = "SELECT * FROM images WHERE gallery_id=?";
                         $query_1 = $conn->prepare($sql_1);
                         $query_1->execute([$id]);

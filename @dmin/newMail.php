@@ -80,7 +80,7 @@ include_once "Includes/nav.php";
                                         <img src="/@dmin/docs/logo.png" alt="image">
                                         &nbsp;&nbsp;&nbsp;Real Nepal Engineering Solutions
                                     </h4>
-                                    <div style="border: 2px solid lightgray;padding: 20px">
+                                    <div style="border: 2px solid lightgray;background:ghostwhite;padding: 20px">
                                         <b>
                                             Sender Info :
                                             <br><i class="fa fa-user"></i> Name : {{mailData.name}}
