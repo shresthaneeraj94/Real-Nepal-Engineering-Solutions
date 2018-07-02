@@ -9,7 +9,7 @@ require_once "includes/header.php" ?>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center center/cover">
+    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center center/cover;">
         <div class="item active">
             <img src="img/slide1.jpg" alt="slide1" style="opacity: 0;">
             <!--Slide Image-->

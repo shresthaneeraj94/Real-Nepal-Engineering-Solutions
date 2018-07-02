@@ -85,7 +85,7 @@ $designing = $query_3->fetchAll();
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!-- offcanvas-trigger-effects -->
-                                <h1 class="logo"><a class="" href="index"><img src="img/logo.png"
+                                <h1 class="logo"><a class="navbar-brand" href="index"><img src="img/logo.png"
                                                                                                alt="Logo"></a></h1>
                             </div>
 

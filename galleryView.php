@@ -65,7 +65,7 @@ include_once 'includes/header.php';
                         foreach ($list_image as $image) {
                             echo "<div class=\"portfolio-item col-sm-6 col-md-3\">
                             <div class=\"single-portfolio\">
-                                <img src=\"img/Gallery/images/" . $image['name'] . "\" alt=\"\">
+                                <img src=\"img/Gallery/images/" . $image['name'] . "\" alt=\"\" style='height: 180px;'>
                                 <div class=\"portfolio-links\">
                                     <a class=\"image-link\" href=\"img/Gallery/images/" . $image['name'] . "\"><i
                                                 class=\"fa fa-search-plus\"></i></a>

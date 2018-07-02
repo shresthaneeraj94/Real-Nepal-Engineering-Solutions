@@ -23,7 +23,7 @@ if (!empty($_FILES['images'])) {
     $images = $_FILES['images'];
     foreach ($images['tmp_name'] as $key => $image) {
         $capImage = $_POST['capImg'][$key];
-        $photo = substr($_FILES['images']['name'][$key], 0, 5) . time() . "." . pathinfo($_FILES['images']['name'][$key], PATHINFO_EXTENSION);
+        $photo = substr($_FILES['images']['name'][$key], 0, 5) . time() ."rand(1,999)". "." . pathinfo($_FILES['images']['name'][$key], PATHINFO_EXTENSION);
 
         if (move_uploaded_file($image, "../../img/Gallery/images/" . $photo)) {
 

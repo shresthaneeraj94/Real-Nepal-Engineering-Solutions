@@ -2429,11 +2429,11 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     text-align  : left;
     text-shadow : none;
     width : 60%;
-    }
+}
 
 .hero-slide .carousel-caption small {
     font-size       : 13px;
-    color           : rgba(255,255,255,.5);
+    color           : rgba(100,245,185,.8);
     font-weight     : 500;
     animation-delay : 1s;
     }
@@ -2453,12 +2453,12 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     margin                  : 30px 0 20px;
     -webkit-animation-delay : 150ms;
     animation-delay         : 150ms;
-    color: #fff;
+    color: #ff7777;
     }
 
 .hero-slide .carousel-caption .lead {
     font-size               : 24px;
-    color                   : #fff;
+    color                   : #4bbb8b;
     font-weight             : normal;
     margin-bottom           : 30px;
     -webkit-animation-delay : 200ms;

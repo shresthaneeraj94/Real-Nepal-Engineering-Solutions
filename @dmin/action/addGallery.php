@@ -17,7 +17,7 @@ $time = date("Y-m-d H:i:s", time());
 
 if (!empty($_FILES)) {
     $image = $_FILES['image']['tmp_name'];
-    $photo = time() . '_' . rand(1, 9) . "." . pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
+    $photo = time() . '_' . rand(1, 999) . "." . pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
     if (move_uploaded_file($image, "../../img/Gallery/featured/" . $photo)) {
         $image = $photo;
     }

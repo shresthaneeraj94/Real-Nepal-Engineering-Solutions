@@ -59,7 +59,7 @@
                                     class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="/@dmin/Mail"><i class="fa fa-envelope"></i> All Mail</a></li>
-                            <li><a href="/@dmin/NewMail"> <i class="fa fa-eye"></i> New mail</a></li>
+                            <li><a href="/@dmin/newMail"> <i class="fa fa-eye"></i> New mail</a></li>
                         </ul>
                     </li>
                 </ul>

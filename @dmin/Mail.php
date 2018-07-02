@@ -77,6 +77,7 @@ include_once "Includes/nav.php";
                                         <th width="20%">sender</th>
                                         <th width="25%">sender(email)</th>
                                         <th width="10%">time</th>
+                                        <th><i class="fa fa-trash"></i></th>
                                     </tr>
                                     <?php foreach ($list as $key => $data) { ?>
                                         <tr v-on:click="mailDetail(<?= $data['id'] ?>)"
@@ -86,6 +87,7 @@ include_once "Includes/nav.php";
                                             <td><?= $data['name'] ?></td>
                                             <td><?= $data['email'] ?></td>
                                             <td><?= $data['created_at'] ?></td>
+                                            <td><a onclick="return confirm('Are you sure?')" href="/@dmin/action/deleteMail?id=<?=$data['id']?>"><i class="btn btn-xs btn-danger fa fa-trash "></i></a></td>
                                         </tr>
                                     <?php } ?>
                                 </table>
