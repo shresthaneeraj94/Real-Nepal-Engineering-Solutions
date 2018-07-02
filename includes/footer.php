@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="footer-widget">
-                    <p class="subcsribe-text wow fadeInDown"></p>
+                    <p class="subcsribe-text wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium expedita facere facilis illum inventore itaque laborum nemo voluptatibus voluptatum. Aliquid consequuntur delectus excepturi facere iusto libero modi nulla reiciendis repudiandae!git </p>
 
 
                     <div class="social-link wow fadeInDown">
