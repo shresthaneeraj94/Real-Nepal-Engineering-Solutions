@@ -70,7 +70,7 @@ $designing = $query_3->fetchAll();
 
 
 <body>
-<div id="st-container" class="st-container" style="background: #e0ffff">
+<div id="st-container" class="st-container" style="background: #87cefa">
     <div class="st-pusher">
         <div class="st-content">
             <div class="st-content-inner">
@@ -92,7 +92,7 @@ $designing = $query_3->fetchAll();
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse navbar-collapse">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="index">Home</a></li>
+                                    <li><a href="index">Home</a></li>
 
                                     <li><a href="about">About Us</a></li>
 
