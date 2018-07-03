@@ -6,63 +6,59 @@ require_once "includes/header.php" ?>
     <ol class="carousel-indicators">
         <li data-target="#x-corp-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#x-corp-carousel" data-slide-to="1"></li>
+        <li data-target="#x-corp-carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center center/cover;">
-        <div class="item active">
-            <img src="img/slide1.jpg" alt="slide1" style="opacity: 0;">
-            <!--Slide Image-->
+    <div class="carousel-inner" role="listbox"
+    ">
 
-            <div class="container">
-                <div class="carousel-caption">
-                    <small class="animated fadeIn">CALL US TODAY</small>
-                    <div class="phone animated lightSpeedIn">+977-01-4478746</div>
-                    <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
+    <div class="item active">
+        <img src="img/slide1.jpg" alt="slide1"">
+        <!--Slide Image-->
 
-                    <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done
-                        here.</p>
+        <div class="container"
+        ">
+        <div class="custom-carousel">
+            <div class="carousel-caption">
+                <small class="animated fadeIn">CALL US TODAY</small>
+                <div class="phone animated lightSpeedIn">+977-01-4478746</div>
+                <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
 
-                    <a class="btn btn-primary animated lightSpeedIn" href="#">Work With Us Today</a>
-                </div>
-                <!--.carousel-caption-->
+                <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done
+                    here.</p>
             </div>
-            <!--.container-->
         </div>
-        <!--.item-->
-
-        <div class="item">
-            <img src="img/slide1.jpg" alt="slide2" style="opacity: 0;">
-            <!--Slide Image-->
-
-            <div class="container">
-                <div class="carousel-caption">
-
-                    <h1 class="animated bounceIn">Real Nepal Engineering Solutions</h1>
-
-                    <p class="lead animated bounceIn">It's a tag line, where you can write a key point of your idea. It
-                        is a long
-                        established fact that a reader will be distracted.</p>
-                    <a class="btn btn-primary animated bounceIn" href="#">Work With Us Today</a>
-                </div>
-                <!--.carousel-caption-->
-            </div>
-            <!--.container-->
-        </div>
-        <!--.item-->
-
+        <!--.carousel-caption-->
     </div>
-    <!--.carousel-inner-->
+    <!--.container-->
+</div>
+<!--.item-->
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-        <span class="sr-only">Next</span>
-    </a>
+<div class="item ">
+    <img src="img/slider1.jpg" alt="slide1"">
+    <!--Slide Image-->
+</div>
+<div class="item">
+    <img src="img/slider2.jpg" alt="slide2">
+    <!--Slide Image-->
+
+        <!--.carousel-caption-->
+</div>
+<!--.item-->
+
+</div>
+<!--.carousel-inner-->
+
+<!-- Controls -->
+<a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
+    <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+</a>
 </div>
 <!-- #x-corp-carousel-->
 
@@ -74,13 +70,19 @@ require_once "includes/header.php" ?>
                 <div class="col-lg-6 col-md-4"></div>
                 <div class="col-lg-6 col-md-8">
                     <h2 class="wow fadeInDown">Welcome to Real Nepal Engineering Solutions</h2>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis, culpa in itaque necessitatibus qui sunt totam! Animi blanditiis cumque deserunt dicta eius expedita id nam natus quas reiciendis, veritatis.</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                        blanditiis, culpa in itaque necessitatibus qui sunt totam! Animi blanditiis cumque deserunt
+                        dicta eius expedita id nam natus quas reiciendis, veritatis.</p>
 
                     <h3 class="wow fadeInDown">About Us</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, commodi culpa distinctio, eligendi eos libero magnam minus modi, necessitatibus nobis numquam perferendis placeat quod reprehenderit sequi totam voluptate voluptatibus!</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                        blanditiis, commodi culpa distinctio, eligendi eos libero magnam minus modi, necessitatibus
+                        nobis numquam perferendis placeat quod reprehenderit sequi totam voluptate voluptatibus!</p>
 
                     <h3 class="wow fadeInDown">Our Mission</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa deserunt doloremque, ducimus laboriosam perspiciatis possimus quo repellendus! Debitis nisi quisquam repellendus unde voluptate. Atque commodi cupiditate odit ut voluptatibus?</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa
+                        deserunt doloremque, ducimus laboriosam perspiciatis possimus quo repellendus! Debitis nisi
+                        quisquam repellendus unde voluptate. Atque commodi cupiditate odit ut voluptatibus?</p>
 
                     <a class="btn btn-primary wow fadeInDown" href="#" role="button">Read More</a>
                 </div>

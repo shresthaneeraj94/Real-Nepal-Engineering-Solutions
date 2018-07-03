@@ -2433,14 +2433,14 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
 
 .hero-slide .carousel-caption small {
     font-size       : 13px;
-    color           : rgba(100,245,185,.8);
+    color           : #ffffff;
     font-weight     : 500;
     animation-delay : 1s;
     }
 
 .hero-slide .carousel-caption .phone {
     font-size               : 30px;
-    color                   : #fcbb3c;
+    color                   : orange	;
     -webkit-animation-delay : 100ms;
     animation-delay         : 100ms;
     }
@@ -2453,12 +2453,12 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     margin                  : 30px 0 20px;
     -webkit-animation-delay : 150ms;
     animation-delay         : 150ms;
-    color: #ff7777;
+    color: red;
     }
 
 .hero-slide .carousel-caption .lead {
     font-size               : 24px;
-    color                   : #4bbb8b;
+    color                   : #ffffff;
     font-weight             : normal;
     margin-bottom           : 30px;
     -webkit-animation-delay : 200ms;
