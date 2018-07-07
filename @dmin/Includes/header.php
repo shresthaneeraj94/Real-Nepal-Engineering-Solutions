@@ -6,12 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RNES - Admin Panel</title>
-    <link rel="icon" href="/@dmin/docs/logo.png">
+    <link rel="icon" href="docs/logo.png">
 
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/@dmin/gentelella/bootstrap.min.css">
-    <link rel="stylesheet" href="/@dmin/gentelella/nprogress.css">
-    <link rel="stylesheet" href="/@dmin/gentelella/custom.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="gentelella/bootstrap.min.css">
+    <link rel="stylesheet" href="gentelella/nprogress.css">
+    <link rel="stylesheet" href="gentelella/custom.min.css">
     <style>
         .imgvid input {
             border-radius: 5px;

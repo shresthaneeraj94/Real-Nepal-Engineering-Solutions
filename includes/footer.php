@@ -3,7 +3,9 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="footer-widget">
-                    <p class="subcsribe-text wow fadeInDown"></p>
+                    <p class="subcsribe-text wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Alias debitis ea hic illo magni modi nesciunt non odit officia rem! Adipisci aperiam dolor
+                        dolorem facilis laborum nam, odio temporibus vel?</p>
 
 
                     <div class="social-link wow fadeInDown">
@@ -25,7 +27,7 @@
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($product as $item1) {
-                            echo "<li title='" . $item1['title'] . "'><a href='/product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item1['title'] . "'><a href='product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
                         }
                         ?>
                     </ul>
@@ -37,7 +39,7 @@
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($services as $item2) {
-                            echo "<li title='" . $item2['title'] . "'><a href='/product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item2['title'] . "'><a href='product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
                         }
                         ?>
                     </ul>
@@ -49,7 +51,7 @@
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($designing as $item3) {
-                            echo "<li title='" . $item3['title'] . "'><a href='/product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item3['title'] . "'><a href='product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
                         }
                         ?>
 
@@ -66,8 +68,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright wow fadeInDown">
-                    <p>Copyright &copy; 2018 Real Nepal Engineering Solutions . All Rights Reserved. Designed by <a
-                                href="http://dunotdevelopers.com.np/">Dunot Developers PVT. LTD. </a></p>
+                    <p>
+                        Copyright &copy; 2018 Real Nepal Engineering Solutions . All Rights Reserved. Designed by
+                        <a href="http://dunotdevelopers.com.np/">Dunot Developers PVT. LTD. </a>
+                    </p>
                 </div><!-- /.copyright -->
             </div><!-- /.col-md-12 -->
         </div><!-- /.row -->
@@ -95,7 +99,7 @@
                     <ul>
                         <?php
                         foreach ($product as $item1) {
-                            echo "<li title='" . $item1['title'] . "'><a href='/product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item1['title'] . "'><a href='product?id=" . $item1['id'] . "'>" . substr($item1['title'], 0, 20) . "</a></li>";
                         }
                         ?>
                     </ul>
@@ -105,7 +109,7 @@
                     <ul>
                         <?php
                         foreach ($services as $item2) {
-                            echo "<li title='" . $item2['title'] . "'><a href='/product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item2['title'] . "'><a href='product?id=" . $item2['id'] . "'>" . substr($item2['title'], 0, 20) . "</a></li>";
                         }
                         ?>
                     </ul>
@@ -116,13 +120,13 @@
                     <ul>
                         <?php
                         foreach ($designing as $item3) {
-                            echo "<li title='" . $item3['title'] . "'><a href='/product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
+                            echo "<li title='" . $item3['title'] . "'><a href='product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
                         }
                         ?>
                     </ul>
                 </li>
 
-
+                <li><a href="gallery"><i class="fa fa-image"></i>Gallery</a>
                 <li><a href="contact"><i class="fa fa-envelope-o"></i>Contact Us</a>
                 </li>
             </ul>

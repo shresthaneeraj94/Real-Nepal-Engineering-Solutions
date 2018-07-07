@@ -42,7 +42,7 @@ include_once "Includes/nav.php";
                         <div class="x_content">
                             <div class="row">
 
-                                <form action="/@dmin/action/addNavigation.php" method="post"
+                                <form action="action/addNavigation.php" method="post"
                                       enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-md-6">

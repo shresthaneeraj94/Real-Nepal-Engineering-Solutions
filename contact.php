@@ -32,7 +32,7 @@ include_once "includes/header.php"
                                 Solutions", you can
                                 always email us directly or via the form below</p>
 
-                            <a href="mailto:#">dummyemail@gmail.com</a>
+                            <a href="mailto:#">realnepal10@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -49,24 +49,19 @@ include_once "includes/header.php"
                         <div class="mini-contact">
                             <h2>Visit us</h2>
                             <address>
-                                795 Folsom Ave, Suite 600 <br>
-                                San Francisco, CA 94107
+                                New Baneshwar <br>
+                                Kathmandu, Nepal
                             </address>
                         </div>
                     </div>
+
+
                 </div><!-- /.row -->
 
-                <h1><i class="fa fa-map-marker"></i> MAP HERE</h1><br>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=budhathoki%20driving%20school&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{text-align:right;height:400px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div>
 
-
-                <div class="directions-wrapper">
-                    <div class="contact-directions">
-                        <h2>Directions &amp; hours</h2>
-                        <p>Dramatically re-enginner high standards in human capital vis-a-vis cross
-                            functional networks credibly.</p>
-                    </div>
-                </div><!-- /.directions-wrapper -->
-
+<!--                <h1><i class="fa fa-map-marker"></i> MAP HERE</h1><br>-->
+                <hr>
                 <div class="contact-us-form">
 
                     <h2>Drop us a line</h2>
@@ -77,7 +72,7 @@ include_once "includes/header.php"
                     } ?>
 
 
-                    <form action="/includes/mailAction.php" method="POST">
+                    <form action="includes/mailAction.php" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-group">

@@ -23,12 +23,12 @@ include_once 'includes/header.php';
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h1>Single Portfolio</h1>
+                        <h1>Detail</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li><a href="productList?id=<?= $output['category'] ?>    "><?= $output['category'] ?></a></li>
-                        <li class="active">Single Portfolio</li>
+                        <li class="active"><?=substr($output['title'],0,30)?></li>
                     </ol>
                 </div>
             </div><!-- /.row -->
@@ -89,9 +89,9 @@ include_once 'includes/header.php';
                             echo "<div class=\"item\">
                             <div class=\"single-portfolio\">
 
-                                <img src=\"img/Gallery/featured/" . $gallery['image'] . "\" alt=\"\">
+                                <img src=\"img/Gallery/featured/" . $gallery['image'] . "\" alt=\"\" style='height:280px'>
                                 <div class=\"portfolio-links\">
-                                    <a class=\"image-link\" href=\"img/gallery/featured/" . $gallery['image'] . "\"><i
+                                    <a class=\"image-link\" href=\"img/Gallery/featured/" . $gallery['image'] . "\"><i
                                                 class=\"fa fa-search-plus\"></i></a>
                                     <a href=\"galleryView?id=" . $gallery['id'] . "\"><i class=\"fa fa-link\"></i></a>
                                 </div><!-- /.links -->

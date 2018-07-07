@@ -18,7 +18,7 @@ include_once 'includes/header.php';
                         <h1>Gallery</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li class="active">Gallery</li>
                     </ol>
                 </div>
@@ -34,10 +34,12 @@ include_once 'includes/header.php';
                         <?php
                         foreach ($output as $gallery) {
                             echo "<div class=\"portfolio-item col-sm-6 col-md-3\">
+                                <b>&nbsp;&nbsp;&nbsp;" . substr($gallery['title'], 0, 25) . "</b>
+
                             <div class=\"single-portfolio\">
-                                <img src=\"img/Gallery/featured/".$gallery['image']."\" alt=\"\">
+                                <img src=\"img/Gallery/featured/" . $gallery['image'] . "\" alt=\"\" style='height: 200px;'>
                                 <div class=\"portfolio-links\">
-                                    <a href=\"galleryView?id=".$gallery['id']."\"><i class=\"fa fa-link\"></i></a>
+                                    <a href=\"galleryView?id=" . $gallery['id'] . "\"><i class=\"fa fa-link\"></i></a>
                                 </div>
                                 <br>
                             </div>
