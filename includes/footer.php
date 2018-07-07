@@ -21,7 +21,7 @@
                     </div>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-6 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
+            <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
                     <h3 class="wow fadeInDown">products</h3>
                     <ul class="wow fadeInDown">
@@ -33,7 +33,7 @@
                     </ul>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-2 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
+            <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
                     <h3 class="wow fadeInDown">Services</h3>
                     <ul class="wow fadeInDown">
@@ -45,7 +45,7 @@
                     </ul>
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-md-2 -->
-            <div class="col-md-2 col-sm-4 col-xs-4">
+            <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
                     <h3 class="wow fadeInDown">Electrical Design</h3>
                     <ul class="wow fadeInDown">
