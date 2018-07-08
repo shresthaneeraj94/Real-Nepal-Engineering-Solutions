@@ -25,7 +25,7 @@ $output = $query->fetchAll();
                         <h1>Listings</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li class="active"><?= $category ?></li>
                     </ol>
                 </div>
@@ -40,7 +40,8 @@ $output = $query->fetchAll();
                     <div class="portfolio-content">
                         <?php
                         foreach ($output as $sub) {
-                            echo "<a href='/product?id=".$sub['id']."'><div style='padding-top: 15px;margin: 2px;border-bottom: 1px solid gainsboro;'>
+
+                            echo "<a href='product?id=".$sub['id']."'><div style='padding-top: 15px;margin: 2px;border-bottom: 1px solid gainsboro;'>
                                     <div class='row'>
                                         <div class='col-sm-3 text-right'>
                                              <img src='img/Navigation/" . $sub['image'] . "' alt='image' style='height: 100px;width: 100px'>

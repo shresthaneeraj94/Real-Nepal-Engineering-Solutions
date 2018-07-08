@@ -26,8 +26,8 @@ include_once 'includes/header.php';
                         <h1>Gallery Detail</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/gallery">Gallery</a></li>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="gallery">Gallery</a></li>
                         <li class="active"><?= substr($output['title'], 0, 50) ?></li>
                     </ol>
                 </div>
@@ -36,17 +36,18 @@ include_once 'includes/header.php';
     </section>
 
     <div class="container">
-    <div class="content-wrapper">
-        <div class="row" style="padding: 30px;">
-            <div class="col-sm-4 text-right">
-                <img style="height: 120px;width: 180px" src="/img/Gallery/featured/<?= $output['image'] ?>"
-                     alt="image">
+        <div class="content-wrapper">
+            <div class="row" style="padding: 30px;">
+                <div class="col-sm-4 text-right">
+                    <img style="height: 120px;width: 180px" src="img/Gallery/featured/<?= $output['image'] ?>"
+                         alt="image">
+                </div>
+                <div class="col-sm-8">
+                    <b><?= $output['title'] ?></b>
+                    <p><?= $output['detail'] ?></p>
+                </div>
             </div>
-            <div class="col-sm-8">
-                <b><?= $output['title'] ?></b>
-                <p><?= $output['detail'] ?></p>
-            </div>
-        </div>
+            <hr>
             <div class="inner-content">
                 <div class="row four-column">
                     <div id="grid">

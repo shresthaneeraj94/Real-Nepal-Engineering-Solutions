@@ -21,7 +21,8 @@ include_once 'includes/header.php' ?>
 <div class="container">
     <div class="content-wrapper">
         <section class="about-us-wrapper">
-            <div class="row margin-bottom-60">
+
+    <div class="row margin-bottom-60">
                 <div class="col-md-12">
                     <img src="img/about-img.jpg" alt="About Image">
                 </div>

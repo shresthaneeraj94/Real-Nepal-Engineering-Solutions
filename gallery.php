@@ -18,7 +18,7 @@ include_once 'includes/header.php';
                         <h1>Gallery</h1>
                     </div>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="index">Home</a></li>
                         <li class="active">Gallery</li>
                     </ol>
                 </div>

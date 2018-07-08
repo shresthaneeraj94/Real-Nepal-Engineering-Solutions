@@ -1,6 +1,7 @@
 <?php
 $title = "Real Nepal Engineering Solution";
 require_once "includes/header.php" ?>
+<br><br>
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -10,8 +11,7 @@ require_once "includes/header.php" ?>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox"
-    ">
+    <div class="carousel-inner" role="listbox">
 
     <div class="item active">
         <img src="img/slide1.jpg" alt="slide1"">

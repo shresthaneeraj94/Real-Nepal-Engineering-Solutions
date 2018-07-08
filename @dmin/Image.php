@@ -63,7 +63,7 @@ include_once "Includes/nav.php";
                                     <tr v-for="(image,index) in imageList">
                                         <td> {{ ++index }}</td>
                                         <td>
-                                            <img :src="'/img/Gallery/images/'+image.name" alt="image"
+                                            <img :src="'../img/Gallery/images/'+image.name" alt="image"
                                                  style="height:50px;">
                                         </td>
                                         <td> {{ image.caption |strlimit}}</td>

@@ -2,7 +2,7 @@
 include_once "Includes/authCheck.php";
 include_once 'action/DBConnect.php';
 if (!isset($_GET['id'])) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/Gallery');
+    header('Location: Gallery');
     die;
 }
 //gallery detail
@@ -78,7 +78,7 @@ include_once "Includes/nav.php";
                                     </button>
                                     <hr>
                                     <div class="text-left imgvid">
-                                        <form action="/@dmin/action/addGalleryDetail" id="img-vid-form"
+                                        <form action="action/addGalleryDetail" id="img-vid-form"
                                               enctype="multipart/form-data" method="post">
                                             <input type="text" name="id" value="<?= $id ?>" style="display: none;">
                                             <button class="alignright btn btn-success" type="submit">Submit</button>

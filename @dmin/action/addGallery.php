@@ -4,7 +4,7 @@ session_start();
 
 if (empty($_POST)) {
     $_SESSION['gallery_msg'] = 'Missing required inputs';
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/AddGallery');
+    header('Location: ../AddGallery');
     die;
 }
 
@@ -28,10 +28,10 @@ $query = $conn->prepare($sql);
 if ($query->execute(array($title, $detail, $image, $navigation, $time))) {
     $last_id = $conn->lastInsertId();
     $_SESSION['gallery_msg'] = 'Gallery item submitted successfullly ! ';
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/AddDetailGallery?id=' . $last_id);
+    header('Location: ../AddDetailGallery?id=' . $last_id);
 } else {
     $_SESSION['gallery_msg'] = 'Failed to submit item ! ';
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/AddGallery');
+    header('Location: ../AddGallery');
 }
 die;
 ?>

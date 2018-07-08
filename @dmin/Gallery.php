@@ -63,7 +63,7 @@ include_once "Includes/nav.php";
                                         <td> {{ ++index }}</td>
                                         <td> {{ gallery.title |strlimit}}</td>
                                         <td>
-                                            <img :src="'/img/Gallery/featured/'+gallery.image" alt="image" style="height:50px;">
+                                            <img :src="'../img/Gallery/featured/'+gallery.image" alt="image" style="height:50px;">
                                         </td>
                                         <td> {{ gallery.detail |strlimit}}</td>
                                         <td> {{gallery.navigation_id}}</td>
