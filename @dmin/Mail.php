@@ -88,7 +88,7 @@ include_once "Includes/nav.php";
                                             <td><?= $data['email'] ?></td>
                                             <td><?= $data['created_at'] ?></td>
                                             <td><a onclick="return confirm('Are you sure?')" href="action/deleteMail?id=<?=$data['id']?>"><i class="btn btn-xs btn-danger fa fa-trash "></i></a></td>
-                                        </tr>
+                                       </tr>
                                     <?php } ?>
                                 </table>
                                 <div class='mail'>

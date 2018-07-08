@@ -2505,44 +2505,48 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
         text-shadow: none;
         width: 60%;
     }
+  
+.hero-slide .carousel-caption {
+    position    : relative;
+    right       : 0;
+    left        : 0;
+    text-align  : left;
+    text-shadow : none;
+    width : 60%;
+}
 
-    .hero-slide .carousel-caption small {
-        font-size: 13px;
-        color: rgba(100, 245, 185, .8);
-        font-weight: 500;
-        animation-delay: 1s;
+.hero-slide .carousel-caption small {
+    font-size       : 13px;
+    color           : #ffffff;
+    font-weight     : 500;
+    animation-delay : 1s;
     }
 
-    .hero-slide .carousel-caption .phone {
-        font-size: 30px;
-        color: #fcbb3c;
-        -webkit-animation-delay: 100ms;
-        animation-delay: 100ms;
+.hero-slide .carousel-caption .phone {
+    font-size               : 30px;
+    color                   : orange	;
+    -webkit-animation-delay : 100ms;
+    animation-delay         : 100ms;
     }
 
-    .hero-slide .carousel-caption h1 {
-        font-size: 56px;
-        line-height: 1;
-        font-weight: bold;
-        text-transform: capitalize;
-        margin: 30px 0 20px;
-        -webkit-animation-delay: 150ms;
-        animation-delay: 150ms;
-        color: #ff7777;
+.hero-slide .carousel-caption h1 {
+    font-size               : 56px;
+    line-height             : 1;
+    font-weight             : bold;
+    text-transform          : capitalize;
+    margin                  : 30px 0 20px;
+    -webkit-animation-delay : 150ms;
+    animation-delay         : 150ms;
+    color: red;
     }
 
-    .hero-slide .carousel-caption .lead {
-        font-size: 24px;
-        color: #4bbb8b;
-        font-weight: normal;
-        margin-bottom: 30px;
-        -webkit-animation-delay: 200ms;
-        animation-delay: 200ms;
-    }
-
-    .hero-slide .carousel-caption .btn {
-        -webkit-animation-delay: 250ms;
-        animation-delay: 250ms;
+.hero-slide .carousel-caption .lead {
+    font-size               : 24px;
+    color                   : #ffffff;
+    font-weight             : normal;
+    margin-bottom           : 30px;
+    -webkit-animation-delay : 200ms;
+    animation-delay         : 200ms;
     }
 
 }

@@ -21,26 +21,43 @@ include_once 'includes/header.php' ?>
 <div class="container">
     <div class="content-wrapper">
         <section class="about-us-wrapper">
-            <h2>Our Story</h2>
+
+    <div class="row margin-bottom-60">
+                <div class="col-md-12">
+                    <img src="img/about-img.jpg" alt="About Image">
+                </div>
+            </div>
             <div class="row margin-bottom-60">
                 <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa deserunt dolorum esse
-                        eum, explicabo fugiat maxime modi molestias, neque nesciunt nobis pariatur rem saepe sint
-                        suscipit temporibus tenetur veniam!</p>
+                    <p>REAL NEPAL ENGINEERING SOLUTIONS PVT. LTD. is leading, independent, private limited company
+                        providing a diverse range of services in engineering,Architect field and project management
+                        support. It
+                        was established in 2016 with best human resources, financial and equipment capability. Having
+                        offices at
+                        New Baneshwar,Kathmandu and Butwal, we provide our services all over Nepal</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet cupiditate, debitis
-                        dignissimos excepturi fugit impedit iure modi nam nemo nostrum quia quis ratione rerum sint
-                        tempore vero voluptates!</p>
+                    <p>We at REAL NEPAL ENGINEERING SOLUTIONS PVT. LTD. believe that development of meaningful and
+                        sustainable
+                        infrastructures underpin better cuture. Our company culture and values always guide our
+                        endeavors towards enhancing value based sustainable development practices.</p>
                 </div><!-- /.col-md-6 -->
 
                 <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi aperiam assumenda, cum
-                        doloribus, expedita ipsa maxime neque non numquam pariatur perferendis provident quos sint, sit
-                        soluta vel! Delectus, quis!</p>
+                    <h3>Our Mission</h3>
+                    <p>
+                        To achieve customer satisfaction and providing long term services to the customer with
+                        cost-effective, finishing the work in time efficiently, providing superior quality, doing
+                        environmental friendly work and development and value addition by exploring
+                        and innovative products and technologies.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi cupiditate deserunt
-                        facere, hic labore laudantium numquam praesentium, quae quaerat quas qui tempora, veniam
-                        voluptatum? Aperiam fugiat odio recusandae.</p>
+                    <h3>Our Objective</h3>
+                    <p><ol>
+                    <li>Excellence in service - meeting and exceeding client expectations.</li>
+                        <li>Quality Workmanship - endorsing the highest quality standards.</li>
+                        <li>Product and service innovation - ensuring quality through skilled human capital.</li>
+                        <li>Incorporating these core values in our daily work and making them an integral part of our culture.</li>
+                    </ol>
+                    </p>
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
 
