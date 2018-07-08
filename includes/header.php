@@ -83,7 +83,7 @@ $designing = $query_3->fetchAll();
                 <header>
                     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                         <div class="container">
-                            <div class="navbar-header">
+                            <div class="navbar-header" style="width:220px">
                                 <button type="button" class="navbar-toggle collapsed">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
@@ -94,6 +94,7 @@ $designing = $query_3->fetchAll();
 
                                 <h1 class="logo"><a class="navbar-brand" href="index"><img height='45px' width="45px" src="img/logo.png"
                                                                                            alt="Logo"></a></h1>
+                                 <b style="color:white">Real Nepal <br>Engineering Solution</b>
 
                             </div>
 
