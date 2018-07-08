@@ -39,6 +39,21 @@ include_once 'includes/header.php';
         <div class="content-wrapper">
             <div class="inner-content">
                 <div class="row">
+                    <div class="col-md-5 ">
+                        <div class="portfolio-info">
+                            <p><span class="title">TITLE</span><?= $output['title'] ?></p>
+
+                            <span class="block-title"></span>
+                            <blockquote>
+                                <?= $output['quote'] ?>
+                            </blockquote>
+                            <!---->
+                            <!--                            <div class="project-live-link">-->
+                            <!--                                <strong>Live Demo:</strong> <a-->
+                            <!--                                        href="http://www.themehippo.com">http://www.themehippo.com</a>-->
+                            <!--                            </div> <!-- /.project-live-link -->
+                        </div> <!-- /.portfolio-info -->
+                    </div> <!-- /.col-md-5 -->
                     <div class="col-md-7">
                         <div class="portfolio-content">
                             <img src="img/Navigation/<?= $output['image'] ?>" class="img-responsive" alt="">
@@ -55,21 +70,6 @@ include_once 'includes/header.php';
                         </div> <!-- /.portfolio-content -->
                     </div> <!-- /.col-md-7 -->
 
-                    <div class="col-md-5">
-                        <div class="portfolio-info">
-                            <p><span class="title">TITLE</span><?= $output['title'] ?></p>
-
-                            <span class="block-title"></span>
-                            <blockquote>
-                                <?= $output['quote'] ?>
-                            </blockquote>
-                            <!---->
-                            <!--                            <div class="project-live-link">-->
-                            <!--                                <strong>Live Demo:</strong> <a-->
-                            <!--                                        href="http://www.themehippo.com">http://www.themehippo.com</a>-->
-                            <!--                            </div> <!-- /.project-live-link -->
-                        </div> <!-- /.portfolio-info -->
-                    </div> <!-- /.col-md-5 -->
                 </div> <!-- /.row -->
                 <br>
                 <hr>

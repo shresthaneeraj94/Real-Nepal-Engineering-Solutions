@@ -10,7 +10,8 @@ require_once "includes/header.php" ?>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center center/cover;">
+    <div class="carousel-inner" role="listbox"
+         style="background: url('img/motional/two.gif') no-repeat center center/cover;">
         <div class="item active">
             <img src="img/slide1.jpg" alt="slide1" style="opacity: 0;">
             <!--Slide Image-->
@@ -41,9 +42,7 @@ require_once "includes/header.php" ?>
 
                     <h1 class="animated bounceIn">Real Nepal Engineering Solutions</h1>
 
-                    <p class="lead animated bounceIn">It's a tag line, where you can write a key point of your idea. It
-                        is a long
-                        established fact that a reader will be distracted.</p>
+                    <p class="lead animated bounceIn">It's a tag line, where you can write a key point of your idea. </p>
                     <a class="btn btn-primary animated bounceIn" href="#">Work With Us Today</a>
                 </div>
                 <!--.carousel-caption-->
@@ -75,13 +74,19 @@ require_once "includes/header.php" ?>
                 <div class="col-lg-6 col-md-4"></div>
                 <div class="col-lg-6 col-md-8">
                     <h2 class="wow fadeInDown">Welcome to Real Nepal Engineering Solutions</h2>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis, culpa in itaque necessitatibus qui sunt totam! Animi blanditiis cumque deserunt dicta eius expedita id nam natus quas reiciendis, veritatis.</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                        blanditiis, culpa in itaque necessitatibus qui sunt totam! Animi blanditiis cumque deserunt
+                        dicta eius expedita id nam natus quas reiciendis, veritatis.</p>
 
                     <h3 class="wow fadeInDown">About Us</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis, commodi culpa distinctio, eligendi eos libero magnam minus modi, necessitatibus nobis numquam perferendis placeat quod reprehenderit sequi totam voluptate voluptatibus!</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                        blanditiis, commodi culpa distinctio, eligendi eos libero magnam minus modi, necessitatibus
+                        nobis numquam perferendis placeat quod reprehenderit sequi totam voluptate voluptatibus!</p>
 
                     <h3 class="wow fadeInDown">Our Mission</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa deserunt doloremque, ducimus laboriosam perspiciatis possimus quo repellendus! Debitis nisi quisquam repellendus unde voluptate. Atque commodi cupiditate odit ut voluptatibus?</p>
+                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa
+                        deserunt doloremque, ducimus laboriosam perspiciatis possimus quo repellendus! Debitis nisi
+                        quisquam repellendus unde voluptate. Atque commodi cupiditate odit ut voluptatibus?</p>
 
                     <a class="btn btn-primary wow fadeInDown" href="#" role="button">Read More</a>
                 </div>

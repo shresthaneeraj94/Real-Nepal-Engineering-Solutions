@@ -23,7 +23,7 @@
             </div><!-- /.col-md-6 -->
             <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">products</h3>
+                    <a href="productList?id=product"><h3 class="wow fadeInDown">products</h3></a>
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($product as $item1) {
@@ -35,7 +35,7 @@
             </div><!-- /.col-md-2 -->
             <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Services</h3>
+                    <a href="productList?id=services"><h3 class="wow fadeInDown">Services</h3></a>
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($services as $item2) {
@@ -47,7 +47,7 @@
             </div><!-- /.col-md-2 -->
             <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
-                    <h3 class="wow fadeInDown">Electrical Design</h3>
+                    <a href="productList?id=designing"><h3 class="wow fadeInDown">Electrical Design</h3></a>
                     <ul class="wow fadeInDown">
                         <?php
                         foreach ($designing as $item3) {
@@ -95,7 +95,7 @@
 
                 <li><a href="about"><i class="fa fa-life-ring"></i> About Us</a></li>
 
-                <li><a href="#"><i class="fa fa-hand-o-right"></i>Products</a>
+                <li><a href="productList?id=product"><i class="fa fa-hand-o-right"></i>Products</a>
                     <ul>
                         <?php
                         foreach ($product as $item1) {
@@ -105,7 +105,7 @@
                     </ul>
                 </li>
 
-                <li><a href="#"><i class="fa fa-wrench"></i>Services</a>
+                <li><a href="productList?id=services"><i class="fa fa-wrench"></i>Services</a>
                     <ul>
                         <?php
                         foreach ($services as $item2) {
@@ -116,7 +116,7 @@
                 </li>
 
 
-                <li><a href="#"><i class="fa fa-area-chart"></i>Electric Design</a>
+                <li><a href="productList?id=designing"><i class="fa fa-area-chart"></i>Electric Design</a>
                     <ul>
                         <?php
                         foreach ($designing as $item3) {

@@ -2567,14 +2567,14 @@ li.dropdown.menu-animating > .submenu-sub-wrapper {
     }
 
     .hero-slide .carousel-caption small {
-        font-size: 13px;
+        font-size: 8px;
         color: rgba(100, 245, 185, .8);
         font-weight: 500;
         animation-delay: 1s;
     }
 
     .hero-slide .carousel-caption .phone {
-        font-size: 30px;
+        font-size: 10px;
         color: #fcbb3c;
         -webkit-animation-delay: 100ms;
         animation-delay: 100ms;

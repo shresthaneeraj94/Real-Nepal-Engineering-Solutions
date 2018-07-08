@@ -76,7 +76,7 @@ $designing = $query_3->fetchAll();
 
 
 <body>
-<div id="st-container" class="st-container" style="background: #e0ffff">
+<div id="st-container" class="st-container" style="background: grey">
     <div class="st-pusher">
         <div class="st-content">
             <div class="st-content-inner">
@@ -91,7 +91,7 @@ $designing = $query_3->fetchAll();
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!-- offcanvas-trigger-effects -->
-                                <h1 class="logo"><a class="navbar-brand" href="index"><img src="img/logo.png"
+                                <h1 class="logo"><a class="navbar-brand" href="index"><img height='45px' width="45px" src="img/logo.png"
                                                                                            alt="Logo"></a></h1>
                             </div>
 
