@@ -60,15 +60,6 @@ include_once 'includes/header.php' ?>
                     </p>
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
-
-            <h2>Our work station</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti dignissimos ea earum
-                        id laboriosam modi, nemo nesciunt officiis perspiciatis placeat qui ratione rem repudiandae sint
-                        suscipit ullam vero voluptates!</em>
-                </div>
-            </div>
         </section><!-- /.about-us-wrapper -->
 
         <!--						<section class="about-us-slider-wrapper">-->
