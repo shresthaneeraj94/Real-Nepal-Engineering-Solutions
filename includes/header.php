@@ -16,14 +16,8 @@ $services = $query_2->fetchAll();
 //designing
 $sql_3 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_3 = $conn->prepare($sql_3);
-$query_3->execute(['designing']);
-$designing = $query_3->fetchAll();
-
-//echo "<pre>";
-//print_r($product);
-//print_r($services);
-//print_r($designing);
-//echo "</pre>";
+$query_3->execute(['built']);
+$built = $query_3->fetchAll();
 ?>
 
 
