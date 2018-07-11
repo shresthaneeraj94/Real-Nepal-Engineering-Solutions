@@ -2,7 +2,7 @@
 include_once 'DBConnect.php';
 
 if (empty($_POST)) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/Gallery');
+    header('Location: ../Gallery');
     die;
 }
 $id = $_POST['id'];

@@ -1,7 +1,7 @@
 <div class="col-md-3 left_col">
     <div class="left_col scroll-view">
         <div class="navbar nav_title" style="border: 0;">
-            <a href="/" class="site_title">Real Nepal Eng- Sol- </a>
+            <a href="../index" class="site_title">Real Nepal Eng- Sol- </a>
         </div>
 
         <div class="clearfix"></div>
@@ -25,7 +25,7 @@
             <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                    <li><a href="/@dmin"><i class="fa fa-home"></i> Home
+                    <li><a href="home"><i class="fa fa-home"></i> Home
                             <!--                            <span class="fa fa-chevron-down"></span>-->
                         </a>
                         <!--                        <ul class="nav child_menu">-->
@@ -37,29 +37,29 @@
                     <li><a><i class="fa fa-credit-card"></i>Navigation<span
                                     class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/@dmin/Navigation">View Navigation List</a></li>
-                            <li><a href="/@dmin/AddNavigation">Add Navigation</a></li>
+                            <li><a href="Navigation">View Navigation List</a></li>
+                            <li><a href="AddNavigation">Add Navigation</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-camera"></i> Gallery <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/@dmin/Gallery">View Gallery List</a></li>
-                            <li><a href="/@dmin/AddGallery">Add Gallery</a></li>
+                            <li><a href="Gallery">View Gallery List</a></li>
+                            <li><a href="AddGallery">Add Gallery</a></li>
                         </ul>
                     </li>
 
                     <li><a><i class="fa fa-table"></i> List image/video <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/@dmin/Image"><i class="fa fa-image"></i> Image</a></li>
-                            <li><a href="/@dmin/Video"><i class="fa fa-video-camera"></i> Video</a></li>
+                            <li><a href="Image"><i class="fa fa-image"></i> Image</a></li>
+                            <li><a href="Video"><i class="fa fa-video-camera"></i> Video</a></li>
                         </ul>
                     </li>
 
                     <li><a><i class="fa fa-envelope-o"></i> Mail <span
                                     class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="/@dmin/Mail"><i class="fa fa-envelope"></i> All Mail</a></li>
-                            <li><a href="/@dmin/newMail"> <i class="fa fa-eye"></i> New mail</a></li>
+                            <li><a href="Mail"><i class="fa fa-envelope"></i> All Mail</a></li>
+                            <li><a href="newMail"> <i class="fa fa-eye"></i> New mail</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -106,7 +106,7 @@
                         </a>
                         <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                             <li v-for="notes in notification.slice(0,3)" >
-                                <a href="/@dmin/newMail">
+                                <a href="newMail">
                                     <span>
                                         <b>{{notes.name}}</b>
                                         <span class="time">{{notes.created_at}}</span>
@@ -119,7 +119,7 @@
                             </li>
                             <li>
                                 <div class="text-center">
-                                    <a href="/@dmin/Mail">
+                                    <a href="Mail">
                                         <strong>See All Mails</strong>
                                         <i class="fa fa-angle-right"></i>
                                     </a>

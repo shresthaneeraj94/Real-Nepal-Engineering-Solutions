@@ -4,7 +4,7 @@ session_start();
 
 if (empty($_POST)) {
     $_SESSION['nav_msg'] = 'Missing required inputs';
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/AddNavigation');
+    header('Location: ../AddNavigation');
     die;
 }
 
@@ -34,6 +34,6 @@ if ($query->execute(array($title, $detail, $quote, $image, $category, $tab_stat,
 } else {
     $_SESSION['nav_msg'] = 'Failed to submit item ! ';
 }
-header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/AddNavigation');
+header('Location: ../AddNavigation');
 die;
 ?>

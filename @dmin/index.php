@@ -4,7 +4,7 @@ if (isset($_COOKIE['remember'])) {
     $_SESSION['user'] = $_COOKIE['remember'];
 }
 if (isset($_SESSION['user'])) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/home');
+    header('Location: home');
     die;
 }
 ?>
@@ -17,8 +17,8 @@ if (isset($_SESSION['user'])) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RNES - Admin Panel</title>
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <style>
         body {
             background: whitesmoke;

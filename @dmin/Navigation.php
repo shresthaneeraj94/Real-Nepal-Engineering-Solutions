@@ -61,7 +61,7 @@ include_once "Includes/nav.php";
                                         <td> {{ nav.title |strlimit}}</td>
                                         <td> {{ nav.quote |strlimit}}</td>
                                         <td>
-                                            <img :src="'/img/Navigation/'+nav.image" alt="image" style="height:50px;">
+                                            <img :src="'../img/Navigation/'+nav.image" alt="image" style="height:50px;">
                                         </td>
                                         <td> {{ nav.detail | strlimit }}</td>
                                         <td> {{ nav.category }}</td>
@@ -91,7 +91,7 @@ include_once "Includes/nav.php";
                                         <select v-model="editList.category" class="form-control">
                                             <option value="product">Product</option>
                                             <option value="services">Services</option>
-                                            <option value="designing">Designing</option>
+                                            <option value="built">Built In</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">

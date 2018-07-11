@@ -9,5 +9,5 @@ if (!empty($_GET['id'])) {
     $query = $conn->prepare($sql);
     $query->execute([$id]);
 }
-header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/Mail');
+header('Location: ../Mail');
 die;

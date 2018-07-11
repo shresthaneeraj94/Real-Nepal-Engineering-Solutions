@@ -14,11 +14,11 @@
         _url: "<?php echo $_SERVER['SERVER_NAME'];?>",
     }
 </script>
-<script src="/@dmin/gentelella/jquery.min.js"></script>
-<script src="/@dmin/gentelella/bootstrap.min.js"></script>
-<script src="/js/vue.js"></script>
-<script src="/js/axios.js"></script>
-<script src="/@dmin/js/customVue.js"></script>
-<script src="/@dmin/gentelella/custom.min.js"></script>
+<script src="gentelella/jquery.min.js"></script>
+<script src="gentelella/bootstrap.min.js"></script>
+<script src="../js/vue.js"></script>
+<script src="../js/axios.js"></script>
+<script src="js/customVue.js"></script>
+<script src="gentelella/custom.min.js"></script>
 </body>
 </html>

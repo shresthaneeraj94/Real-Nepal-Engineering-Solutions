@@ -4,14 +4,14 @@ if (isset($_SESSION['user']) || isset($_COOKIE['user'])) {
     if (isset($_COOKIE['user'])) {
         $_SESSION['user'] = $_COOKIE['user'];
     }
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/home');
+    header('Location: ../home');
     die;
 }
 
 require_once 'DBConnect.php';
 
 if (empty($_POST)) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/');
+    header('Location: ../index');
     $_SESSION['login_msg'] = 'Login Failed';
     die;
 }
@@ -33,10 +33,10 @@ if (empty($user) || empty($pass)) {
         if ($rem === 'ok') {
             setcookie('remember', $user, time() + 86400,'/');
         }
-        header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/home');
+        header('Location: ../home');
     } else {
         $_SESSION['login_msg'] = 'Incorrect Username or Password';
-        header('Location: //' . $_SERVER['SERVER_NAME'] . '/@dmin/');
+        header('Location: ../index');
     }
 }
 

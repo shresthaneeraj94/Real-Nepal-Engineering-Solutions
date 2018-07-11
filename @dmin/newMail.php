@@ -61,7 +61,7 @@ include_once "Includes/nav.php";
                                     </tr>
                                     <?php
                                     if (empty($list)) {
-                                        echo '<tr><td colspan="4"> No new mail ! go to <a href="/@dmin/Mail"><b>all mails</b></a></td></tr>';
+                                        echo '<tr><td colspan="4"> No new mail ! go to <a href="Mail"><b>all mails</b></a></td></tr>';
                                     } else {
                                         foreach ($list as $key => $data) { ?>
                                             <tr v-on:click="mailDetail(<?= $data['id'] ?>)"

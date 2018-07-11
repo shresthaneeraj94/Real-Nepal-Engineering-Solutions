@@ -87,14 +87,14 @@ include_once "Includes/nav.php";
                                             <td><?= $data['name'] ?></td>
                                             <td><?= $data['email'] ?></td>
                                             <td><?= $data['created_at'] ?></td>
-                                            <td><a onclick="return confirm('Are you sure?')" href="/@dmin/action/deleteMail?id=<?=$data['id']?>"><i class="btn btn-xs btn-danger fa fa-trash "></i></a></td>
-                                        </tr>
+                                            <td><a onclick="return confirm('Are you sure?')" href="action/deleteMail?id=<?=$data['id']?>"><i class="btn btn-xs btn-danger fa fa-trash "></i></a></td>
+                                       </tr>
                                     <?php } ?>
                                 </table>
                                 <div class='mail'>
                                     <i class='alignright fa fa-times fa-2x text-danger' v-on:click='closeMail()'></i>
                                     <h4>
-                                        <img src="/@dmin/docs/logo.png" alt="image">
+                                        <img src="docs/logo.png" alt="image">
                                         &nbsp;&nbsp;&nbsp;Real Nepal Engineering Solutions
                                     </h4>
                                     <div style="border: 2px solid lightgray;background:ghostwhite;padding: 20px">

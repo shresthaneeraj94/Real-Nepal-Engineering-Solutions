@@ -42,7 +42,7 @@ include_once "Includes/nav.php";
                         <div class="x_content">
                             <div class="row">
 
-                                <form action="/@dmin/action/addNavigation.php" method="post"
+                                <form action="action/addNavigation.php" method="post"
                                       enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -52,7 +52,7 @@ include_once "Includes/nav.php";
                                             <select name="category" class="form-control">
                                                 <option value="product">Product</option>
                                                 <option value="services">Services</option>
-                                                <option value="designing">Designing</option>
+                                                <option value="built">Built In</option>
                                             </select>
                                             <br>
                                         </div>

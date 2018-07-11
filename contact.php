@@ -72,7 +72,7 @@ include_once "includes/header.php"
                     } ?>
 
 
-                    <form action="/includes/mailAction.php" method="POST">
+                    <form action="includes/mailAction.php" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-group">
