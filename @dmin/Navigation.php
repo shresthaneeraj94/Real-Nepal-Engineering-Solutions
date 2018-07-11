@@ -91,7 +91,7 @@ include_once "Includes/nav.php";
                                         <select v-model="editList.category" class="form-control">
                                             <option value="product">Product</option>
                                             <option value="services">Services</option>
-                                            <option value="designing">Designing</option>
+                                            <option value="built">Built In</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">

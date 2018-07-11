@@ -10,7 +10,7 @@ $query->execute([$id]);
 $output = $query->fetch();
 
 if (empty($output)) {
-    header('Location: //' . $_SERVER['SERVER_NAME'] . '/productList');
+    header('Location: productList');
     die;
 }
 

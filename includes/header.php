@@ -19,16 +19,16 @@ $query_2 = $conn->prepare($sql_2);
 $query_2->execute(['services']);
 $services = $query_2->fetchAll();
 
-//designing
+//built
 $sql_3 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_3 = $conn->prepare($sql_3);
-$query_3->execute(['designing']);
-$designing = $query_3->fetchAll();
+$query_3->execute(['built']);
+$built = $query_3->fetchAll();
 
 //echo "<pre>";
 //print_r($product);
 //print_r($services);
-//print_r($designing);
+//print_r($built);
 //echo "</pre>";
 ?>
 
@@ -138,14 +138,14 @@ $designing = $query_3->fetchAll();
                                     </li>
 
 
-                                    <li class="dropdown"><a href="productList?id=designing">Electrical Design <b
+                                    <li class="dropdown"><a href="productList?id=built">Built In<b
                                                     class="caret"></b></a>
                                         <!-- submenu-wrapper -->
                                         <div class="submenu-wrapper submenu-wrapper-topbottom">
                                             <div class="submenu-inner  submenu-inner-topbottom">
                                                 <ul class="dropdown-menu">
                                                     <?php
-                                                    foreach ($designing as $item3) {
+                                                    foreach ($built as $item3) {
                                                         echo "<li title='" . $item3['title'] . "'><a href='product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
                                                     }
                                                     ?>                                                </ul>
