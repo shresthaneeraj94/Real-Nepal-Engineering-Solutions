@@ -5,7 +5,7 @@
                 <div class="footer-widget">
                     <p class="subcsribe-text wow fadeInDown">
                         We at REAL NEPAL ENGINEERING SOLUTIONS PVT. LTD. believe that development of meaningful and
-                        sustainable infrastructures underpin better cuture.
+                        sustainable infrastructures underpin better culture.
                     </p>
 
 
