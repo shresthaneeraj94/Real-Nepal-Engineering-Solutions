@@ -21,8 +21,8 @@ require_once "includes/header.php" ?>
                 <div class="custom-carousel">
                     <div class="carousel-caption">
                         <small class="animated fadeIn" style="color: green;">CALL US TODAY</small>
-                        <div class="phone animated lightSpeedIn">+977-01-4478746</div>
-                        <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
+                        <div class="phone animated lightSpeedIn">+977-01-5526708</div>
+                        <h1 class="animated lightSpeedIn">Real Nepal Engineering Solutions</h1>
 
                         <p class="lead animated lightSpeedIn" style="color:green">All typers of civil,Architect and
                             Electronics works are

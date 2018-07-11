@@ -28,21 +28,17 @@ include_once "includes/header.php"
                     <div class="col-md-4">
                         <div class="mini-contact">
                             <h2>Email us</h2>
-                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering
-                                Solutions", you can
+                            <p> You can
                                 always email us directly or via the form below</p>
-
                             <a href="mailto:#">realnepal10@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mini-contact">
                             <h2>Call us</h2>
-                            <p>If you're encountering an issue or problem when working with "Real Nepal Engineering
-                                Solutions", you can
+                            <p>You can
                                 always email us directly or via the form below</p>
-
-                            <a href="#">call +977-01-4478746</a>
+                            <a href="#">call +977-01-5526708</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -51,6 +47,8 @@ include_once "includes/header.php"
                             <address>
                                 New Baneshwar <br>
                                 Kathmandu, Nepal
+                                <br>
+                                Butwal-11, Rupandehi
                             </address>
                         </div>
                     </div>
