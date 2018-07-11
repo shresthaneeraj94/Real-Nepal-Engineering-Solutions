@@ -94,12 +94,9 @@ $designing = $query_3->fetchAll();
 
                                 <h1 class="logo">
                                     <a class="navbar-brand" href="index">
-                                        <img height='45px' width="45px" src="img/logo.png"
-                                                                                           alt="Logo"></a></h1>
-                                                                                           <b style="color:white">Real Nepal Engineering Solution</b>
-                                        
-
-                            </div>
+                                        <img height='45px' width="45px" src="img/logo.png" alt="Logo"></a></h1>
+                              <b style="color:white">Real Nepal Engineering Solution</b>
+                                </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse navbar-collapse">
