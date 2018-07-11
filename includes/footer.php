@@ -3,9 +3,10 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="footer-widget">
-                    <p class="subcsribe-text wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Alias debitis ea hic illo magni modi nesciunt non odit officia rem! Adipisci aperiam dolor
-                        dolorem facilis laborum nam, odio temporibus vel?</p>
+                    <p class="subcsribe-text wow fadeInDown">
+                        We at REAL NEPAL ENGINEERING SOLUTIONS PVT. LTD. believe that development of meaningful and
+                        sustainable infrastructures underpin better cuture.
+                    </p>
 
 
                     <div class="social-link wow fadeInDown">
@@ -47,10 +48,10 @@
             </div><!-- /.col-md-2 -->
             <div class="col-md-2 col-sm-4">
                 <div class="footer-widget">
-                    <a href="productList?id=designing"><h3 class="wow fadeInDown">Electrical Design</h3></a>
+                    <a href="productList?id=built"><h3 class="wow fadeInDown">Built In</h3></a>
                     <ul class="wow fadeInDown">
                         <?php
-                        foreach ($designing as $item3) {
+                        foreach ($built as $item3) {
                             echo "<li title='" . $item3['title'] . "'><a href='product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
                         }
                         ?>
@@ -116,10 +117,10 @@
                 </li>
 
 
-                <li><a href="productList?id=designing"><i class="fa fa-area-chart"></i>Electric Design</a>
+                <li><a href="productList?id=built"><i class="fa fa-area-chart"></i>Built In</a>
                     <ul>
                         <?php
-                        foreach ($designing as $item3) {
+                        foreach ($built as $item3) {
                             echo "<li title='" . $item3['title'] . "'><a href='product?id=" . $item3['id'] . "'>" . substr($item3['title'], 0, 20) . "</a></li>";
                         }
                         ?>

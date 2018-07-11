@@ -11,54 +11,55 @@ require_once "includes/header.php" ?>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" style="background: url('img/motional/two.gif') no-repeat center/cover">
 
-    <div class="item active">
-        <img src="img/slide1.jpg" alt="slide1"">
+        <div class="item active">
+            <img src="img/slide1.jpg" alt="slide1" style="opacity: 0;">
+            <!--Slide Image-->
+
+            <div class="container">
+                <div class="custom-carousel">
+                    <div class="carousel-caption">
+                        <small class="animated fadeIn" style="color: green;">CALL US TODAY</small>
+                        <div class="phone animated lightSpeedIn">+977-01-4478746</div>
+                        <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
+
+                        <p class="lead animated lightSpeedIn" style="color:green">All typers of civil,Architect and
+                            Electronics works are
+                            done
+                            here.</p>
+                    </div>
+                </div>
+                <!--.carousel-caption-->
+            </div>
+            <!--.container-->
+        </div>
+        <!--.item-->
+
+        <!--<div class="item ">-->
+        <!--    <img src="img/slider1.jpg" alt="slide1"">-->
+        <!--    <!--Slide Image-->-->
+        <!--</div>-->
+        <!--<div class="item">-->
+        <!--    <img src="img/slider2.jpg" alt="slide2">-->
         <!--Slide Image-->
 
-        <div class="container"
-        ">
-        <div class="custom-carousel">
-            <div class="carousel-caption">
-                <small class="animated fadeIn">CALL US TODAY</small>
-                <div class="phone animated lightSpeedIn">+977-01-4478746</div>
-                <h1 class="animated lightSpeedIn">Real Nepal Engineering Solution</h1>
-
-                <p class="lead animated lightSpeedIn">All typers of civil,Architect and Electronics works are done
-                    here.</p>
-            </div>
-        </div>
         <!--.carousel-caption-->
+        <!--</div>-->
+        <!--.item-->
+
     </div>
-    <!--.container-->
-</div>
-<!--.item-->
+    <!--.carousel-inner-->
 
-<div class="item ">
-    <img src="img/slider1.jpg" alt="slide1"">
-    <!--Slide Image-->
-</div>
-<div class="item">
-    <img src="img/slider2.jpg" alt="slide2">
-    <!--Slide Image-->
-
-        <!--.carousel-caption-->
-</div>
-<!--.item-->
-
-</div>
-<!--.carousel-inner-->
-
-<!-- Controls -->
-<a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
-    <i class="fa fa-angle-left" aria-hidden="true"></i>
-    <span class="sr-only">Previous</span>
-</a>
-<a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
-    <i class="fa fa-angle-right" aria-hidden="true"></i>
-    <span class="sr-only">Next</span>
-</a>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#x-corp-carousel" role="button" data-slide="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#x-corp-carousel" role="button" data-slide="next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 <!-- #x-corp-carousel-->
 
@@ -70,21 +71,21 @@ require_once "includes/header.php" ?>
                 <div class="col-lg-6 col-md-4"></div>
                 <div class="col-lg-6 col-md-8">
                     <h2 class="wow fadeInDown">Welcome to Real Nepal Engineering Solutions</h2>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-                        blanditiis, culpa in itaque necessitatibus qui sunt totam! Animi blanditiis cumque deserunt
-                        dicta eius expedita id nam natus quas reiciendis, veritatis.</p>
-
-                    <h3 class="wow fadeInDown">About Us</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-                        blanditiis, commodi culpa distinctio, eligendi eos libero magnam minus modi, necessitatibus
-                        nobis numquam perferendis placeat quod reprehenderit sequi totam voluptate voluptatibus!</p>
+                    <p class="wow fadeInDown">
+                        REAL NEPAL ENGINEERING SOLUTIONS PVT. LTD. is leading, independent, private limited company
+                        providing a diverse range of services in engineering,Architect field and project management
+                        support. It was established in 2016 with best human resources, financial and equipment
+                        capability. Having offices at New Baneshwar,Kathmandu and Butwal, we provide our services all
+                        over Nepal
+                    </p>
 
                     <h3 class="wow fadeInDown">Our Mission</h3>
-                    <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa
-                        deserunt doloremque, ducimus laboriosam perspiciatis possimus quo repellendus! Debitis nisi
-                        quisquam repellendus unde voluptate. Atque commodi cupiditate odit ut voluptatibus?</p>
+                    <p class="wow fadeInDown">To achieve customer satisfaction and providing long term services to the
+                        customer with cost-effective, finishing the work in time efficiently, providing superior
+                        quality, doing environmental friendly work and development and value addition by exploring and
+                        innovative products and technologies.</p>
 
-                    <a class="btn btn-primary wow fadeInDown" href="#" role="button">Read More</a>
+                    <a class="btn btn-primary wow fadeInDown" href="about" role="button">Read More</a>
                 </div>
 
 

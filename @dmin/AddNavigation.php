@@ -52,7 +52,7 @@ include_once "Includes/nav.php";
                                             <select name="category" class="form-control">
                                                 <option value="product">Product</option>
                                                 <option value="services">Services</option>
-                                                <option value="designing">Designing</option>
+                                                <option value="built">Built In</option>
                                             </select>
                                             <br>
                                         </div>
