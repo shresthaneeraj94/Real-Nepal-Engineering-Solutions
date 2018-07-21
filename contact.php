@@ -36,8 +36,7 @@ include_once "includes/header.php"
                     <div class="col-md-4">
                         <div class="mini-contact">
                             <h2>Call us</h2>
-                            <p>You can
-                                always email us directly or via the form below</p>
+                            <p>We are available 24/7 on</p>
                             <a href="#">call +977-01-5526708</a>
                         </div>
                     </div>
