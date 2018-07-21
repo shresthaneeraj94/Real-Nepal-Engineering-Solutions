@@ -81,6 +81,7 @@ $built = $query_3->fetchAll();
                                 <!-- offcanvas-trigger-effects -->
                                 <h1 class="logo"><a class="navbar-brand" href="index"><img src="img/logo.png"
                                                                                                alt="Logo"></a></h1>
+                                <b style="color:white">Real Nepal Engineering Solutions</b>
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
