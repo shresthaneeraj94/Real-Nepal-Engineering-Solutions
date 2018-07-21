@@ -30,7 +30,7 @@ $built = $query_3->fetchAll();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="icon" type="png" href="img/header.png">
     <title><?= $title ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -64,7 +64,7 @@ $built = $query_3->fetchAll();
 
 
 <body>
-<div id="st-container" class="st-container" style="background: #87cefa">
+<div id="st-container" class="st-container" style="background:linear-gradient(white,#87cefa)">
     <div class="st-pusher">
         <div class="st-content">
             <div class="st-content-inner">

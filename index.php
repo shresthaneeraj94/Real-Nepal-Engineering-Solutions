@@ -1,5 +1,5 @@
 <?php
-$title = "Real Nepal Engineering Solution";
+$title = "Real Nepal Engineering Solutions";
 require_once "includes/header.php" ?>
 <br>
 <div id="x-corp-carousel" class="carousel slide hero-slide" data-ride="carousel">
@@ -38,7 +38,7 @@ require_once "includes/header.php" ?>
 
         <!--<div class="item ">-->
         <!--    <img src="img/slider1.jpg" alt="slide1"">-->
-        <!--    <!--Slide Image-->-->
+        <!--    <!--Slide Image-->
         <!--</div>-->
         <!--<div class="item">-->
         <!--    <img src="img/slider2.jpg" alt="slide2">-->
