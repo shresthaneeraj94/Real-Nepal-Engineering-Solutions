@@ -1,18 +1,15 @@
 <?php
 include_once '@dmin/action/DBConnect.php';
-
 //product
 $sql_1 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_1 = $conn->prepare($sql_1);
 $query_1->execute(['product']);
 $product = $query_1->fetchAll();
-
 //services
 $sql_2 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_2 = $conn->prepare($sql_2);
 $query_2->execute(['services']);
 $services = $query_2->fetchAll();
-
 //designing
 $sql_3 = "SELECT * FROM navigation WHERE category=? AND tab_stat=1";
 $query_3 = $conn->prepare($sql_3);
@@ -79,8 +76,12 @@ $built = $query_3->fetchAll();
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!-- offcanvas-trigger-effects -->
-                                <h1 class="logo"><a class="navbar-brand" href="index"><img src="img/logo.png"
-                                                                                               alt="Logo"></a></h1>
+
+                                <h1 class="logo">
+                                    <a class="navbar-brand" href="index">
+                                        <img height='45px' width="45px" src="img/logo.png" alt="Logo"></a></h1>
+                                <b style="color:white">Real Nepal Engineering Solution</b>
+
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->
